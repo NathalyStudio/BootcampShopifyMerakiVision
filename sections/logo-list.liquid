@@ -17,13 +17,13 @@
   {% if section.blocks.size > 0 %}
     <div class="logo-bar logo-bar--{{ section.id }} logoContainer">
       {% for block in section.blocks %}
-        <div class="logo-bar__item itemImageContainer" {{ block.shopify_attributes }}>
+        <div class="logo-bar__item" {{ block.shopify_attributes }}>
           {% if block.settings.link != blank %}
             <a href="{{ block.settings.link }}" class="logo-bar__link">
           {% endif %}
           {% if block.settings.image != blank %}
             {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
-            <img class="logo-bar__image lazyload"
+            <img class="logo-bar__image lazyload itemImageContainer"
                 data-src="{{ img_url }}"
                 data-widths="[180, 360, 540, 720]"
                 data-aspectratio="{{ block.settings.image.aspect_ratio }}"
