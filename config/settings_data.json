@@ -663,7 +663,8 @@
       "1658902223d07a02f1": {
         "type": "bg-featured-collection",
         "settings": {
-          "color_accent": "#F8F8F8",
+          "color_accent": "#f8f8f8",
+          "color_accent2": "#fbefee",
           "title": "E-Books",
           "home_featured_products": "e-books",
           "per_row": 4,
