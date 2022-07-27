@@ -1,3 +1,4 @@
+{{ 'featuredLogoBrands.css' | asset_url | stylesheet_tag }}
 {% style %}
 .logo-bar--{{ section.id }} {
   opacity: {{ section.settings.logo_opacity | divided_by: 100.0 }};
@@ -9,7 +10,7 @@
 <div class="page-width" data-aos="logo__animation">
   {% if section.settings.title != blank %}
     <div class="section-header">
-      <h2 class="section-header__title">{{ section.settings.title | escape }}</h2>
+      <h2 class="sectionTitle">{{ section.settings.title | escape }}</h2>
     </div>
   {% endif %}
 
