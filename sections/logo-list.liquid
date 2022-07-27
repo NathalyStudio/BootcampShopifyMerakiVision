@@ -15,7 +15,7 @@
   {% endif %}
 
   {% if section.blocks.size > 0 %}
-    <div class="logo-bar logo-bar--{{ section.id }}">
+    <div class="logo-bar logo-bar--{{ section.id }} logoContainer">
       {% for block in section.blocks %}
         <div class="logo-bar__item" {{ block.shopify_attributes }}>
           {% if block.settings.link != blank %}
