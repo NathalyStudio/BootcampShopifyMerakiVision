@@ -15,7 +15,10 @@
         margin-right: auto;
     }
     .itemImageContainer{
-        max-width: 70px;
+        max-height: 70px;
+        max-width: 113px;
+        width: 100%;
+        height: 100%;
     }
 }
 @media(min-width:768px){
