@@ -1,0 +1,98 @@
+{{ 'hero.css' | asset_url | stylesheet_tag }}
+
+{% for block in section.blocks %}
+    {% if block.settings.image != blank %}
+    <div id="hero-header" class="relative z-0" style=" background-position: {{block.settings.image_background_position}};background-image: url('{{ block.settings.image | img_url: "1800x", crop: "center" }}');">
+        <div class="z-10 h-full flex flex-col space-y-4 px-5 items-center justify-center">
+            <div>
+                <h1 style="color: {{block.settings.heading_color}};" class="CTA-title font-extrabold">{{block.settings.hero_heading}}</h1>
+                <p class="py-3 text-xl CTA__content" style="color: {{block.settings.sub_heading_color}}">{{block.settings.sub_heading}}</p>
+            </div>
+            <div class="mx-auto pt-3 btn-div">
+                <a href="{{ block.settings.button_url }}" class="px-12 py-3 rounded CTA-btn">
+                    {{ block.settings.button_text }}
+                </a>
+            </div>
+        </div>
+    </div>
+{% endif %}
+{% endfor %}
+
+{% schema %}
+{
+   "name": "Hero Image",
+   "tag": "section",
+   "class": "home-hero-image",
+   "max_blocks": 1,
+   "blocks": [{
+      "type": "image",
+      "name": "Image",
+      "settings": [{
+            "type": "header",
+            "content": "Hero Image"
+         },
+         {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+         },
+         {
+            "type": "header",
+            "content": "Header Text Settings"
+         },
+         {
+            "type": "text",
+            "id": "hero_heading",
+            "label": "Heading Text"
+         },
+         {
+            "type": "color",
+            "id": "heading_color",
+            "label": "Heading Text Color",
+            "default": "#ffffff"
+         },
+         {
+            "type": "header",
+            "content": "Sub-header Text Settings"
+         },
+         {
+            "type": "textarea",
+            "id": "sub_heading",
+            "label": "Sub Text"
+         },
+         {
+            "type": "color",
+            "id": "sub_heading_color",
+            "label": "Sub Heading Text Color",
+            "default": "#ffffff"
+         },
+         {
+            "type": "header",
+            "content": "Button Settings"
+         },
+         {
+            "type": "url",
+            "id": "button_url",
+            "label": "Button URL"
+         },
+         {
+            "type": "text",
+            "id": "button_text",
+            "label": "Button text",
+            "default": "Learn more"
+         }
+      ]
+   }],
+   "presets": [{
+      "name": "Hero Image",
+      "category": "Image",
+      "blocks": [{
+         "type": "image",
+         "settings": {
+            "hero_heading": "REPLACE THIS TEXT",
+            "sub_heading": "A sub heading"
+         }
+      }]
+   }]
+}
+{% endschema %}

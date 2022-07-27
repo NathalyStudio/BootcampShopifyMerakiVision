@@ -1,0 +1,29 @@
+@media(min-width: 1140px){
+    .sectionTitle{
+        text-align: center;
+        text-transform: uppercase;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        letter-spacing: 0.085em;
+        margin-top: 100px;
+    }
+    .logoBrands{
+        max-width: 1178px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media(min-width:768px){
+    .sectionTitle{
+        text-align: center;
+        text-transform: uppercase;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        letter-spacing: 0.085em;
+        margin-top: 80px;
+    }
+}

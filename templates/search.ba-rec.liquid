@@ -1,0 +1,50 @@
+{% layout none %}
+{% paginate search.results by 50 %}
+
+{% capture output %}
+  {
+    "currency": {{cart.currency.symbol | json}},
+    "pagination": {
+      "total_products": {{paginate.items | json}},
+      "current_page": {{paginate.current_page | json}},
+      "total_pages": {{paginate.pages | json}},
+      "next_page_url": {{paginate.next.url | json}},
+      "previous_page_url": {{paginate.previous.url | json}}
+    },
+    "products": [
+      {% for product in search.results %}
+        {% assign product_url = product.url %}
+        {% assign image_url = product.images[0] | product_img_url: 'thumb' %}
+        {
+          "id":{{product.id | json}},
+          "handle": {{product.handle | json}},
+          "title":{{ product.title | json }},
+          "price_min":{{product.price_min | json}},
+          "price":{{product.price | json}},
+          "price_varies": {{product.price_varies | json}},
+          "image": {"src": {{ product.images[0].src | json}}},
+          "images":{{ product.images | json }},
+          "variants": [
+            {% for v in product.variants %}
+               {
+                  "title":{{ v.title | json }},
+                  "id":{{v.id | json}},
+                  "price":{{v.price | json}},
+                  "sku": {{v.sku | json}},
+                  "inventory_quantity": {{v.inventory_quantity | json}},
+                  "available": {{v.available | json}},
+                  "compare_at_price": {{v.compare_at_price | json}},
+                  "image_id": {{ v.image.id | json }},
+                  "image_src": {{ v.image.src | json }}
+               }
+               {% unless forloop.last %},{% endunless %}
+             {% endfor %}
+           ]
+        }
+        {% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ]
+  }
+{% endcapture %}
+{% endpaginate %}
+{{ output | strip_newlines }}

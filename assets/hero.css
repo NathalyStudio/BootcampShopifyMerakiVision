@@ -1,0 +1,70 @@
+.home-hero-image {
+    margin-top: -9rem;
+}
+#hero-header{
+    z-index:10000; 
+    width:100vw; 
+    height:75vh; 
+    background-size: cover;
+}
+.CTA-btn{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    /* margin-top: 25px; */
+    margin-left: 148px;
+    background: #361e45;
+    color: white;
+    padding: 13px;
+}
+.CTA-btn:hover{
+    color: white;
+
+}
+.btn-div{
+    margin-top: 22px;
+}
+@media (min-width: 1140px){
+    .CTA-title {
+        padding-top: 17rem;
+        max-width: 630px;
+        margin-left: 148px;
+        line-height: 46.96px;
+        font-size: 40px;
+    }   
+    .CTA__content {
+        max-width: 466px;
+        margin-left: 148px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+    }
+}
+@media (max-width: 1139px){
+    .CTA-title {
+        padding-top: 12rem;
+        max-width: 45%;
+        margin-left: 148px;
+        line-height: 26px;
+        font-size: 22px;
+    }  
+    .CTA__content {
+        max-width: 42%;
+        margin-left: 148px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+    }
+    #hero-header{
+        height: 85vh;
+    }
+}
+
+@media (max-width:1024px){
+    #hero-header{
+        height: 69vh;
+    }
+}

@@ -1,0 +1,23 @@
+<script type="text/javascript">
+  //BOOSTER APPS COMMON JS CODE
+  window.BoosterApps = window.BoosterApps || {};
+  window.BoosterApps.common = window.BoosterApps.common || {};
+  window.BoosterApps.common.shop = {
+    permanent_domain: '{{ shop.permanent_domain }}',
+    currency: {{ shop.currency | json }},
+    money_format: {{ shop.money_format | json }},
+    id: 42916282535
+  };
+  {% if customer %}
+  window.BoosterApps.common.customer = {id: {{ customer.id | json }}, tags: {{ customer.tags | json }}};
+  {% endif %}
+  window.BoosterApps.common.template = '{{ template | split: "." | first }}';
+  window.BoosterApps.common.cart = {{ cart | json }};
+  window.BoosterApps.common.apps = {{shop.metafields.ba_apps.all | json}};
+
+  {% if product %}
+    if (window.BoosterApps.common.template == 'product'){
+      window.BoosterApps.common.product = {id: {{product.id}}, price: {{product.price}}, handle: '{{product.handle}}', available: {{product.available}} };
+    }
+  {% endif %}
+</script>

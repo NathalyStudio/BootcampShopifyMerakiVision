@@ -1,0 +1,47 @@
+{%- assign days_price_valid_until = 10 | times: 86400 -%}
+{%- assign gtin_option = 'gtin' -%}
+{%- assign is_barcode_available = false -%}
+{%- if current_variant.barcode != blank -%}
+  {%- assign is_barcode_available = true -%}
+  {%- assign gtin_string_length = current_variant.barcode | size -%}
+  {%- if gtin_string_length == 8 or gtin_string_length == 12 or gtin_string_length == 13 or gtin_string_length == 14 -%}
+    {%- assign is_valid_gtin_length = true -%}
+    {%- assign gtin_option = gtin_option | append: gtin_string_length -%}
+  {%- endif -%}
+{%- endif -%}
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Product",
+    "offers": {
+      "@type": "Offer",
+      "availability":"https://schema.org/{% if product.available %}InStock{% else %}OutOfStock{% endif %}",
+      "price": "{{ current_variant.price | divided_by: 100.00 }}",
+      "priceCurrency": "{{ cart.currency.iso_code }}",
+      "priceValidUntil": "{{ 'now' | date: '%s' | plus: days_price_valid_until | date: '%Y-%m-%d'}}",
+      "url": "{{ shop.url }}{{ product.url }}"
+    },
+    "brand": {{ product.vendor | json }},
+    "sku": {{ current_variant.sku | json }},
+    "name": {{ product.title | json }},
+    "description": {{ product.description | strip_html | json }},
+    "category": "",
+    "url": "{{ shop.url }}{{ product.url }}",
+    {%- if is_barcode_available and is_valid_gtin_length %}
+      "{{gtin_option}}": {{ current_variant.barcode | json }},
+      "productId": {{ current_variant.barcode | json }},
+    {%- elsif is_barcode_available %}
+      "mpn": {{ current_variant.barcode | json }},
+      "productId": {{ current_variant.barcode | json }},
+    {%- endif -%}
+    "image": {
+      "@type": "ImageObject",
+      "url": "https:{{ product.featured_media.preview_image | img_url: '1024x1024' }}",
+      "image": "https:{{ product.featured_media.preview_image | img_url: '1024x1024' }}",
+      "name": {{ product.title | json }},
+      "width": 1024,
+      "height": 1024
+    }
+  }
+</script>

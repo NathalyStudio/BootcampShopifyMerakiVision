@@ -1,0 +1,63 @@
+{{ 'featuredLogoBrands.css' | asset_url | stylesheet_tag }}
+{{'owlcarousel/owl.carousel.min.css' | asset_url | stylesheet_tag }}
+{{'owlcarousel/owl.theme.default.min.css' | asset_url | stylesheet_tag }}
+<script defer src="jquery.min.js"></script>
+<script defer src="owlcarousel/owl.carousel.min.js"></script>
+
+<div  data-section-id="{{ section.id }}"class="logoBrands">
+    {% if section.settings.title != blank %}
+        <h3 class="sectionTitle">{{ section.settings.title }}</h3>  
+    {% endif %}
+    {% for block in section.blocks %}
+        {% if section.settings.image != blank %}
+        <img src="" alt="">
+        {%endif%}
+    {% endfor %}
+</div>
+
+{% schema %}
+{
+  "name": "Logo Brands",
+  "tag": "section",
+  "class": "slideshow",
+  "limit": 1,
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading"
+    }
+  ],
+  "max_blocks": 1000,
+  "blocks": [
+     {
+       "name": "Slide",
+       "type": "slide",
+       "settings": [
+         {
+           "type": "image_picker",
+           "id": "image",
+           "label": "Image"
+         }
+       ]
+     }
+  ],
+  "presets": [
+    {
+      "name": "Logo Brands",
+      "settings": {
+        "title": "Slideshow"
+      },
+      "blocks": [
+        {
+          "type": "slide"
+        },
+        {
+          "type": "slide"
+        }
+      ]
+    }
+  ],
+  "templates": ["article", "index", "page", "product"]
+}
+{% endschema %}
