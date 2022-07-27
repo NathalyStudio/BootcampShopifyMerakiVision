@@ -647,11 +647,24 @@
           "logo_opacity": 50,
           "divider": false
         }
+      },
+      "1658902189a817604b": {
+        "type": "featured-collection",
+        "settings": {
+          "title": "Our Programs",
+          "home_featured_products": "programs",
+          "per_row": 3,
+          "rows": 1,
+          "mobile_scrollable": true,
+          "view_all": true,
+          "divider": false
+        }
       }
     },
     "content_for_index": [
       "16586969045d1bea72",
-      "165888933116502dc3"
+      "165888933116502dc3",
+      "1658902189a817604b"
     ]
   },
   "presets": {
