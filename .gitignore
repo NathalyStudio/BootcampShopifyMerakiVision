@@ -1,2 +1,5 @@
 /Nathaly
 *config.yml
+
+# Optional npm cache directory
+.npm
