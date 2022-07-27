@@ -54,7 +54,7 @@
                     <a href="{{ product.url | within: collection }}" class="grid-product__link {% if sold_out %} grid-product__link--disabled{% endif %}">
                       <div class="grid-product__image-mask">
                         {% capture current %}{% cycle 1, 2, 3, 4, 5, 6 %}{% endcapture %}
-                        <div class="image-wrap">{{ 'product-' | append: current | placeholder_svg_tag: 'placeholder-svg' }}</div>
+                        <div class="image-wrap" style="background-color:{{section.settings.color_accent2}}>{{ 'product-' | append: current | placeholder_svg_tag: 'placeholder-svg' }}</div>
                       </div>
                       <div class="grid-product__meta">
                         <div class="grid-product__title">{{ 'home_page.onboarding.product_title' | t }}</div>
@@ -119,6 +119,12 @@
         "id": "color_accent",
         "label": "Background",
         "default": "#F8F8F8"
+      },
+      {
+        "type": "color",
+        "id": "color_accent2",
+        "label": "Background product image",
+        "default": "#FFFFFF"
       },
       {
         "type": "text",
