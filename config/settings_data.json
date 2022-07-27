@@ -572,22 +572,6 @@
         "settings": {
         }
       },
-      "16587064963d32ebac": {
-        "type": "brandLogos",
-        "blocks": {
-          "16587064963d32ebac-1": {
-            "type": "slide",
-            "settings": {
-            }
-          }
-        },
-        "block_order": [
-          "16587064963d32ebac-1"
-        ],
-        "settings": {
-          "title": "Featured in"
-        }
-      },
       "165888933116502dc3": {
         "type": "logo-list",
         "blocks": {
@@ -659,15 +643,14 @@
           "a0bad868-6567-45cc-be39-0796e08a3fff"
         ],
         "settings": {
-          "title": "",
-          "logo_opacity": 76,
+          "title": "Featured in",
+          "logo_opacity": 50,
           "divider": false
         }
       }
     },
     "content_for_index": [
       "16586969045d1bea72",
-      "16587064963d32ebac",
       "165888933116502dc3"
     ]
   },
