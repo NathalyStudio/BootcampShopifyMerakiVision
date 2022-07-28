@@ -71,9 +71,9 @@ img.small--hide {
         height: 65vh;
     }
     .CTA-title {
-        padding-top: 25%;
-        max-width: 55%;
-        margin-left: 12%;
+        padding-top: 17rem;
+        max-width: 630px;
+        margin-left: 148px;
         line-height: 46.96px;
         font-size: 40px;
     }   
@@ -98,13 +98,16 @@ img.small--hide {
         margin-bottom: auto;
         margin-top: auto;
     }
+    .fixedWidthBox {
+        max-width: 1178px;
+        margin-left: 10%;
+    }
 }
 @media (min-width: 1500px){
     #hero-header{
         height: 85vh;
     }
 }
-
 @media(min-width:2000px){
     a.site-nav__link.site-nav__link--underline {
         font-size: 20px;
