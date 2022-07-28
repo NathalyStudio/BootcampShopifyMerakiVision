@@ -91,7 +91,7 @@
             "type": "logo",
             "settings": {
               "logo": "shopify:\/\/shop_images\/NP-logo1_3.png",
-              "desktop_logo_width": 140,
+              "desktop_logo_width": 240,
               "mobile_logo_width": 110
             }
           },
