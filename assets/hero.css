@@ -83,7 +83,7 @@
         height: 74vh;
     }
 }
-@media (min-width: 1520px){
+@media (min-width: 1500px){
     #hero-header{
         height: 85vh;
     }
