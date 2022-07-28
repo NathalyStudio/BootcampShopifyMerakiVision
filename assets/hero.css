@@ -103,6 +103,11 @@ img.small--hide {
         font-weight: 500;
     }
     img.small--hide {
-        width: 95px;
+        width: 92px;
+    }
+}
+@media(min-width: 2560px){
+    a.site-nav__link.site-nav__link--underline {
+        font-size: 27px;
     }
 }
