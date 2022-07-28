@@ -26,6 +26,7 @@
     margin-top: 22px;
 }
 @media (min-width: 1140px){
+    
     .CTA-title {
         padding-top: 17rem;
         max-width: 630px;
@@ -66,5 +67,11 @@
 @media (max-width:1024px){
     #hero-header{
         height: 69vh;
+    }
+}
+
+@media (min-width: 1520px){
+    #hero-header{
+        height: 85vh;
     }
 }
