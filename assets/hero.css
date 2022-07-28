@@ -25,6 +25,9 @@
 .btn-div{
     margin-top: 22px;
 }
+img.small--hide {
+    width: 70px;
+}
 
 @media (max-width: 1139px){
     .CTA-title {
@@ -45,6 +48,7 @@
     #hero-header{
         height: 85vh;
     }
+    
 }
 
 @media (max-width:1024px){
