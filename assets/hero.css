@@ -25,24 +25,7 @@
 .btn-div{
     margin-top: 22px;
 }
-@media (min-width: 1140px){
-    
-    .CTA-title {
-        padding-top: 17rem;
-        max-width: 630px;
-        margin-left: 148px;
-        line-height: 46.96px;
-        font-size: 40px;
-    }   
-    .CTA__content {
-        max-width: 466px;
-        margin-left: 148px;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 150%;
-    }
-}
+
 @media (max-width: 1139px){
     .CTA-title {
         padding-top: 12rem;
@@ -66,10 +49,35 @@
 
 @media (max-width:1024px){
     #hero-header{
-        height: 69vh;
+        height: 56vh;
     }
 }
 
+@media (min-width: 1040px){
+    #hero-header{
+        height: 60vh;
+    }
+}
+@media (min-width: 1140px){
+    #hero-header{
+        height: 65vh;
+    }
+    .CTA-title {
+        padding-top: 17rem;
+        max-width: 630px;
+        margin-left: 148px;
+        line-height: 46.96px;
+        font-size: 40px;
+    }   
+    .CTA__content {
+        max-width: 466px;
+        margin-left: 148px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+    }
+}
 @media (min-width: 1520px){
     #hero-header{
         height: 85vh;
