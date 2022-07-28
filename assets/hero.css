@@ -32,13 +32,13 @@ img.small--hide {
     .CTA-title {
         padding-top: 12rem;
         max-width: 45%;
-        margin-left: 148px;
+        /* margin-left: 148px; */
         line-height: 26px;
         font-size: 22px;
     }  
     .CTA__content {
         max-width: 42%;
-        margin-left: 148px;
+        /* margin-left: 148px; */
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -101,6 +101,9 @@ img.small--hide {
     .fixedWidthBox {
         max-width: 1178px;
         margin-left: 10%;
+    }
+    .page-width{
+        padding: 0 148px;
     }
 }
 @media (min-width: 1500px){
