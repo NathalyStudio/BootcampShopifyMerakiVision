@@ -120,6 +120,9 @@ img.small--hide {
     .CTA__content{
         margin-left: 136px;
     }
+    .CTA-title{
+        padding-top: 22rem;
+    }
 }
 @media(min-width:2000px){
     a.site-nav__link.site-nav__link--underline {
@@ -131,6 +134,20 @@ img.small--hide {
     }
     .CTA-title, .CTA__content {
         margin-left: 265px;
+    }
+    .CTA-title{
+        padding-top: 25rem;
+        line-height: 71.96px;
+        width: 1126px;
+        max-width: 2000px;
+        font-size: 56px;
+        width: 88%;
+        font-weight: 600;
+    }
+    .CTA__content{
+        max-width: 764px;
+        font-size: 30px;
+        line-height: 150%;
     }
 }
 @media(min-width:2200px){
