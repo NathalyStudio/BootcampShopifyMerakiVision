@@ -96,5 +96,10 @@ img.small--hide {
     #hero-header{
         height: 85vh;
     }
-    
+}
+@media(min-width:2000px){
+    a.site-nav__link.site-nav__link--underline {
+        font-size: 20px;
+        font-weight: 500;
+    }
 }
