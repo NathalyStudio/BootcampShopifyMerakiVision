@@ -102,4 +102,7 @@ img.small--hide {
         font-size: 20px;
         font-weight: 500;
     }
+    img.small--hide {
+        width: 95px;
+    }
 }
