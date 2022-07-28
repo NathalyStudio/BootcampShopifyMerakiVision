@@ -78,6 +78,11 @@
         line-height: 150%;
     }
 }
+@media(min-width: 1300px){
+    #hero-header{
+        height: 74vh;
+    }
+}
 @media (min-width: 1520px){
     #hero-header{
         height: 85vh;
