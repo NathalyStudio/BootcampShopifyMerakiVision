@@ -105,6 +105,10 @@ img.small--hide {
     .page-width{
         padding: 0 148px;
     }
+    .CTA-title, 
+    .CTA__content{
+        margin-left: 36px;
+    }
 }
 @media (min-width: 1500px){
     #hero-header{
