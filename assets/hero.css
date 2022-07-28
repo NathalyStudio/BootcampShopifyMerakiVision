@@ -52,12 +52,15 @@ img.small--hide {
 
 @media (max-width:1024px){
     #hero-header{
-        height: 56vh;
+        height: 67vh;
     }
     a.site-nav__link.site-nav__link--underline {
         font-size: 14px;
         font-weight: 500;
         letter-spacing: .5px;
+    }
+    .fixedWidthBox {
+        margin-left: 5%;
     }
 }
 
@@ -164,5 +167,12 @@ img.small--hide {
     }
     .site-nav__link{
         letter-spacing: 0.01em;
+    }
+    .CTA__content{
+        max-width: 2560px;
+        width: 75%;
+    }
+    .CTA-title{
+        padding-top: 34rem;
     }
 }
