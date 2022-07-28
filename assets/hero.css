@@ -92,6 +92,14 @@ img.small--hide {
         height: 74vh;
     }
 }
+@media(min-width:1440px){
+    .z-10.h-full.flex.flex-col.space-y-4.px-5.items-center.justify-center {
+        max-width: 1178px;
+        margin-right: auto;
+        margin-bottom: auto;
+        margin-top: auto;
+    }
+}
 @media (min-width: 1500px){
     #hero-header{
         height: 85vh;
