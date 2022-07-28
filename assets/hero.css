@@ -1,5 +1,5 @@
 .home-hero-image {
-    margin-top: -9rem;
+    margin-top: -10rem;
 }
 #hero-header{
     z-index:10000; 
@@ -71,9 +71,9 @@ img.small--hide {
         height: 65vh;
     }
     .CTA-title {
-        padding-top: 17rem;
-        max-width: 630px;
-        margin-left: 148px;
+        padding-top: 25%;
+        max-width: 55%;
+        margin-left: 12%;
         line-height: 46.96px;
         font-size: 40px;
     }   
