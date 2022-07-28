@@ -115,6 +115,12 @@ img.small--hide {
         height: 85vh;
     }
 }
+@media(min-width:1700px){
+    .CTA-title, 
+    .CTA__content{
+        margin-left: 136px;
+    }
+}
 @media(min-width:2000px){
     a.site-nav__link.site-nav__link--underline {
         font-size: 20px;
@@ -123,9 +129,23 @@ img.small--hide {
     img.small--hide {
         width: 92px;
     }
+    .CTA-title, .CTA__content {
+        margin-left: 265px;
+    }
+}
+@media(min-width:2200px){
+    .CTA-title, .CTA__content {
+        margin-left: 365px;
+    }
 }
 @media(min-width: 2560px){
     a.site-nav__link.site-nav__link--underline {
         font-size: 27px;
+    }
+    .CTA-title, .CTA__content {
+        margin-left: 550px;
+    }
+    .site-nav__link{
+        letter-spacing: 0.01em;
     }
 }
