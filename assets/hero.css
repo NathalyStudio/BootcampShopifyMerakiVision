@@ -55,6 +55,11 @@ img.small--hide {
     #hero-header{
         height: 56vh;
     }
+    a.site-nav__link.site-nav__link--underline {
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: .5px;
+    }
 }
 
 @media (min-width: 1040px){
