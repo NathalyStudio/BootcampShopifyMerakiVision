@@ -96,6 +96,7 @@
             </div>
           {%- endif -%}
         {%- endunless -%}
+        <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
 
         {%- if settings.collection_color_swatches -%}
           {%- assign swatch_trigger = 'products.general.color_swatch_trigger' | t | downcase-%}
