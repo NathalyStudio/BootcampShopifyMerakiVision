@@ -2,3 +2,6 @@
     max-width: 1148px;
     width: 100%;
 }
+.image-wrap{
+    background-color:{{section.settings.color_accent2}}
+}
