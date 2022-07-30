@@ -62,6 +62,14 @@ img.small--hide {
     .fixedWidthBox {
         margin-left: 5%;
     }
+    .CTA-btn{
+        margin-left: 5%;
+    }
+}
+@media(min-width:1025px){
+    .fixedWidthBox {
+        margin-left: 5%;
+    }
 }
 
 @media (min-width: 1040px){
@@ -71,10 +79,11 @@ img.small--hide {
     .fixedWidthBox {
         margin-left: 5%;
     }
+   
 }
 @media (min-width: 1140px){
     #hero-header{
-        height: 65vh;
+        height: 85vh;
     }
     .CTA-title {
         padding-top: 17rem;
@@ -91,11 +100,20 @@ img.small--hide {
         font-size: 18px;
         line-height: 150%;
     }
+    .fixedWidthBox {
+        margin-left: -8%;
+    }
     
 }
 @media(min-width: 1300px){
     #hero-header{
-        height: 74vh;
+        height: 87vh;
+    }
+    .fixedWidthBox {
+        margin-left: -5%;
+    }
+    .CTA-btn{
+        margin-left: 6.5%;
     }
 }
 @media(min-width:1440px){
