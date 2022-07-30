@@ -5,7 +5,7 @@
 
 {% if section.settings.divider %}<div class="section--divider">{% endif %}
 
-<div style=" background-position: {{section.settings.image_background_position}};background-image: url('{{ section.settings.image }}');"
+<div style="background-image: url('{{ block.settings.image }}');"
   id="CollectionSection-{{ section.id }}"
   data-section-id="{{ section.id }}"
   data-section-type="collection-template">
@@ -114,11 +114,7 @@
     "name": "Collection w/img BG",
     "class": "index-section",
     "settings": [
-        {
-          "type": "image_picker",
-          "id": "image",
-          "label": "Image"
-      },
+        
       {
         "type": "color",
         "id": "color_accent2",
@@ -177,6 +173,19 @@
       "name": "Collection w/img BG",
       "category": "Collection"
     }],
-    "blocks" : []
+    "blocks" : [
+      {
+        "type": "image",
+        "name": "Image",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          }
+        ]
+      }
+    
+  ]
   }
 {% endschema %}
