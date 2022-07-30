@@ -5,6 +5,21 @@ img.logo-bar__image.itemImageContainer.lazyautosizes.lazyloaded {
 .centerGridLayout{
     justify-content: center;
 }
+.sectionTitle{
+    text-align: center;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.085em;
+    margin-top: 80px;
+    margin-bottom: 35px;
+}
+@media(min-width:768px){
+  
+}
+
 @media(min-width: 1140px){
     .sectionTitle{
         text-align: center;
@@ -28,16 +43,3 @@ img.logo-bar__image.itemImageContainer.lazyautosizes.lazyloaded {
         height: 100%;
     }
 }
-@media(min-width:768px){
-    .sectionTitle{
-        text-align: center;
-        text-transform: uppercase;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 140%;
-        letter-spacing: 0.085em;
-        margin-top: 80px;
-    }
-}
-
