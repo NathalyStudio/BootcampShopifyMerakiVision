@@ -1,5 +1,5 @@
 {{ 'featuredLogoBrands.css' | asset_url | stylesheet_tag }}
-<!-- {{'ionicons.min.css' | asset_url | stylesheet_tag }} -->
+
 {% style %}
 .logo-bar--{{ section.id }} {
   opacity: {{ section.settings.logo_opacity | divided_by: 100.0 }};
@@ -60,7 +60,7 @@
 
 
 </div>
-<script async>
+<!-- <script async>
     var carousel = document.querySelector('.carousel');
     var carouselContent = document.querySelector('.carousel-content');
     var slides = document.querySelectorAll('.slide');
@@ -234,7 +234,7 @@
     document.removeEventListener('mouseup', moveBasedOnMouse);
     carouselContent.removeEventListener('mousemove', slightMove);
     }
-</script>
+</script> -->
 
 {% schema %}
 {
