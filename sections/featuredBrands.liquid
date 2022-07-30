@@ -46,19 +46,21 @@
 
   <script>
     $('.owl-carousel').owlCarousel({
+    center:true,
+    items: 8,
     loop:true,
     margin:10,
     responsiveClass:true,
     responsive:{
         0:{
             items:2,
-            nav:true
+            nav:false
         },
-        600:{
+        480:{
             items:4,
             nav:false
         },
-        1000:{
+        1024:{
             items:8,
             nav:false,
             loop:false
