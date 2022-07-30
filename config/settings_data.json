@@ -672,6 +672,20 @@
         "type": "bg-featured-collection",
         "settings": {
           "color_accent": "{{ shop.brand.colors.primary[0].background }}",
+          "color_accent2": "#ffffff",
+          "title": "Our Programs",
+          "home_featured_products": "programs",
+          "per_row": 3,
+          "rows": 1,
+          "mobile_scrollable": true,
+          "view_all": true,
+          "divider": false
+        }
+      },
+      "165916080932c1d343": {
+        "type": "bg-featuredCollection",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Frame_349.png",
           "color_accent2": "#FFFFFF",
           "title": "Our Programs",
           "home_featured_products": "programs",
@@ -687,7 +701,8 @@
       "16586969045d1bea72",
       "165915392273b5e1b3",
       "1659159300754e539f",
-      "1658902223d07a02f1"
+      "1658902223d07a02f1",
+      "165916080932c1d343"
     ]
   },
   "presets": {
