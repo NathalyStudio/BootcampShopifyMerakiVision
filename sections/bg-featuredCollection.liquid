@@ -5,7 +5,7 @@
 
 {% if section.settings.divider %}<div class="section--divider">{% endif %}
 
-<div style=" background-position: {{block.settings.image_background_position}};background-image: url('{{ block.settings.image }}');"
+<div style=" background-position: {{section.settings.image_background_position}};background-image: url('{{ section.settings.image }}');"
   id="CollectionSection-{{ section.id }}"
   data-section-id="{{ section.id }}"
   data-section-type="collection-template">
