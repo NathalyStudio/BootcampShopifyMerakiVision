@@ -49,7 +49,12 @@ img.small--hide {
     }
     
 }
-
+@media(max-width: 768px){
+    #hero-header {
+        height: 85vh;
+        object-fit: scale-down;
+    }
+}
 @media (max-width:1024px){
     #hero-header{
         height: 67vh;
