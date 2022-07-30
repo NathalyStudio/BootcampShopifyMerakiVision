@@ -49,6 +49,26 @@ img.small--hide {
     }
     
 }
+@media(max-width:480px){
+    #hero-header {
+        height: 105vh;
+    }
+    .CTA-title{
+        max-width: 95%;
+        padding-top: 15rem;
+        padding-bottom: 1rem;
+    }
+    .CTA__content{
+        max-width: 95%;
+        padding-bottom: 1rem;
+    }
+    img.logo-bar__image.itemImageContainer.lazyautosizes.lazyloaded{
+        min-width: 66px;
+    }
+    .grid-overflow-wrapper .grid {
+        justify-content: unset;
+    }
+}
 @media(max-width: 768px){
     #hero-header {
         height: 85vh;
