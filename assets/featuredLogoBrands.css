@@ -1,3 +1,10 @@
+img.logo-bar__image.itemImageContainer.lazyautosizes.lazyloaded {
+    width: 100%;
+    min-width: 42px;
+}
+.centerGridLayout{
+    justify-content: center;
+}
 @media(min-width: 1140px){
     .sectionTitle{
         text-align: center;
