@@ -183,7 +183,15 @@ img.small--hide {
         margin-left: 22.5%;
     }
 }
+@media(min-width: 1800px){
+    .page-width {
+        padding: 0 100px;
+    }
+}
 @media(min-width:2000px){
+    .page-width {
+        padding: 0;
+    }
     a.site-nav__link.site-nav__link--underline {
         font-size: 20px;
         font-weight: 500;
@@ -227,6 +235,9 @@ img.small--hide {
     }
     .CTA-btn{
         margin-left: 16%;
+    }
+    a.site-header__logo-link{
+        margin-left: -9rem;
     }
 }
 @media(min-width: 2560px){
