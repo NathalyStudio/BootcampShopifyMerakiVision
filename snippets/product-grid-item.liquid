@@ -98,12 +98,19 @@
             </div>
           {%- endif -%}
         {%- endunless -%}
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star"></span>
-        <span class="fa fa-star"></span>
+        <div class="star-rating">
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+        </div>
+        
         <style>
+          .star-rating{
+            display: block;
+            margin: auto;
+          }
           .checked {
             color: #EDC0BD;
           }
