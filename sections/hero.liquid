@@ -2,7 +2,7 @@
 
 {% for block in section.blocks %}
     {% if block.settings.image != blank %}
-    <div id="hero-header" class="relative z-0" style=" background-position: {{block.settings.image_background_position}};background-image: url('{{ block.settings.image | img_url: "1800x", crop: "center" }}');">
+    <div id="hero-header" class="relative z-0" style=" background-position:top ;background-image: url('{{ block.settings.image | img_url: "1800x", crop: "center" }}');">
         <div class="z-10 h-full flex flex-col space-y-4 px-5 items-center justify-center">
             <div class="fixedWidthBox">
                 <h1 style="color: {{block.settings.heading_color}};" class="CTA-title font-extrabold">{{block.settings.hero_heading}}</h1>

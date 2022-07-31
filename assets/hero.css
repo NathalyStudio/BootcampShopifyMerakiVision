@@ -264,4 +264,8 @@ img.small--hide {
     .btn-div {
         margin-top: 4rem;
     }
+    #hero-header {
+        margin-top: -18rem;
+        height: 79vh;
+    }
 }
