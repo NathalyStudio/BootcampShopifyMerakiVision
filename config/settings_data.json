@@ -676,9 +676,9 @@
           "title": "Our Programs",
           "home_featured_products": "programs",
           "per_row": 3,
-          "rows": 1,
+          "rows": 2,
           "mobile_scrollable": true,
-          "view_all": true,
+          "view_all": false,
           "divider": false
         }
       },
