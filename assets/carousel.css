@@ -34,14 +34,14 @@ body{
   }
   
   #prev {
-    top: 141%;
+    top: 37%;
     left: 0;
     transform: translate(50%, -50%);
     display: none;
   }
   
   #next {
-    top: 141%;
+    top: 37%;
     right: 0;
     transform: translate(-50%, -50%);
   }
@@ -55,7 +55,7 @@ body{
   }
   @media(min-width: 1440px){
     #next {
-        top: 156%;
-        right: 6.5rem;
+        top: 37%;
+        right: 0rem;
     }
   }
