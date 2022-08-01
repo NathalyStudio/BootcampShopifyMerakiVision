@@ -1,4 +1,5 @@
 {{ 'custom.css' | asset_url | stylesheet_tag }}
+{{ 'carousel.css' | asset_url | stylesheet_tag }}
 {%- assign per_row = section.settings.per_row -%}
 {%- assign product_limit = per_row | times: section.settings.rows -%}
 {%- assign collection = collections[section.settings.home_featured_products] -%}
