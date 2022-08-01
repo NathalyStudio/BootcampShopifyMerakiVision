@@ -10,7 +10,7 @@ body{
     scrollbar-width: none;
   }
   #wrapper {
-    width: 100%;
+    /* width: 100%; */
  /*    max-width: 964px; */
     position: relative;
   }
