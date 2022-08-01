@@ -1,7 +1,18 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 #carousel {
     overflow: auto;
     scroll-behavior: smooth;
     scrollbar-width: none;
+  }
+  #wrapper {
+    width: 100%;
+ /*    max-width: 964px; */
+    position: relative;
   }
   
   #carousel::-webkit-scrollbar {
@@ -23,14 +34,14 @@
   }
   
   #prev {
-    top: 50%;
+    top: 141%;
     left: 0;
     transform: translate(50%, -50%);
     display: none;
   }
   
   #next {
-    top: 50%;
+    top: 141%;
     right: 0;
     transform: translate(-50%, -50%);
   }
@@ -42,4 +53,9 @@
     margin: auto;
     box-sizing: border-box;
   }
-  
+  @media(min-width: 1440px){
+    #next {
+        top: 156%;
+        right: 6.5rem;
+    }
+  }
