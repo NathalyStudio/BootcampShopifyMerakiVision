@@ -21,9 +21,9 @@
     font-size: 14px;
     line-height: 140%;
 }
-.page-width .grid .footer__small-text .site-footer a{
+/* .page-width .grid .footer__small-text .site-footer a{
     display: none;
-}
+} */
 @media (min-width:2560px){
     .site-footer .footer__collapsible p{
         font-size: 30px;
