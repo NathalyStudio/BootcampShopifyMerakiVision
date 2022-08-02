@@ -141,7 +141,7 @@
             "settings": {
               "show_footer_title": true,
               "menu": "contact-us-menu",
-              "container_width": 41
+              "container_width": 30
             }
           },
           "33020611-93d2-44bd-914e-73187e84d30a": {
@@ -149,7 +149,7 @@
             "settings": {
               "show_footer_title": true,
               "menu": "shop",
-              "container_width": 25
+              "container_width": 15
             }
           }
         },
