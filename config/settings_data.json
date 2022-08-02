@@ -142,11 +142,20 @@
               "menu": "contact-us-menu",
               "container_width": 41
             }
+          },
+          "33020611-93d2-44bd-914e-73187e84d30a": {
+            "type": "menu",
+            "settings": {
+              "show_footer_title": true,
+              "menu": "shop",
+              "container_width": 25
+            }
           }
         },
         "block_order": [
           "f2b934d1-9cbf-4b1c-9549-271d6ff8e0a5",
-          "876995c2-2658-4c24-8a7f-7d458ccbb2d3"
+          "876995c2-2658-4c24-8a7f-7d458ccbb2d3",
+          "33020611-93d2-44bd-914e-73187e84d30a"
         ],
         "settings": {
           "show_locale_selector": true,
