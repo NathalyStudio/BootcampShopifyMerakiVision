@@ -6,3 +6,18 @@
     background-color:#FBEFEE;
 }
 
+.footer__title{
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 16px;
+    letter-spacing: 0;
+    font-family: 'Raleway';
+    color: #552473;
+}
+.site-footer .footer__collapsible p{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+}
