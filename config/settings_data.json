@@ -738,6 +738,15 @@
           "space_above": true,
           "space_below": true
         }
+      },
+      "1659461943704877fc": {
+        "type": "newsletter",
+        "settings": {
+          "title": "let’s keep in touch",
+          "text": "<p>Sign Up For Our Newsletter & Get 10% Off Your First Order<\/p>",
+          "color_background": "#fbefee",
+          "color_text": "#552473"
+        }
       }
     },
     "content_for_index": [
@@ -745,7 +754,8 @@
       "165915392273b5e1b3",
       "1659455299828670c4",
       "1659163211fdb4141f",
-      "1659456900cf051807"
+      "1659456900cf051807",
+      "1659461943704877fc"
     ]
   },
   "presets": {
