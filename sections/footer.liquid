@@ -65,8 +65,47 @@
           {% when 'menu' %}
             {% render 'footer-menu', block: block %}
           {%- when 'socialicons' -%}
-          {% render 'socialicons', block: block %}
-            
+            <div class="socialicons">
+              <h4 class="title">{{section.settings.socialtitle}}</h4>
+              {% if section.settings.facebook == true %}
+                  <div class="facebook">
+                      <a href="{{section.settings.fblink}}">
+                          <img src="../assets/Facebook - Negative.png" alt="" srcset="">
+                      </a>            
+                  </div>
+              {% endif %}
+          
+              {% if section.settings.twitter == true %}
+              <div class="twitter">
+                  <a href="{{section.settings.twitterlink}}">
+                      <img src="../assets/Twitter - Negative.png" alt="" srcset="">
+                  </a>            
+              </div>
+              {% endif %}
+          
+              {% if section.settings.instagram == true %}
+              <div class="instagram">
+                  <a href="{{section.settings.iglink}}">
+                      <img src="../assets/Instagram - Negative.svg" alt="" srcset="">
+                  </a>            
+              </div>
+              {% endif %}
+          
+              {% if section.settings.youtube == true %}
+              <div class="youtube">
+                  <a href="{{section.settings.youtubelink}}">
+                      <img src="../assets/YouTube - Negative.png" alt="" srcset="">
+                  </a>            
+              </div>
+          
+              {% if section.settings.pinterest == true %}
+              <div class="pinterest">
+                  <a href="{{section.settings.pinterestlink}}">
+                      <img src="../assets/Pinterest - Negative.png" alt="" srcset="">
+                  </a>            
+              </div>
+              {% endif %}
+          </div>
           {% endcase %}
         </div>
       {% endfor %}
@@ -167,6 +206,66 @@
         "type": "text",
         "id": "copyright_text",
         "label": "Additional copyright text"
+      },
+      {
+        "type": "text",
+        "id": "socialtitle",
+        "label": "Heading"
+      },
+      {
+        "type": "checkbox",
+        "id": "facebook",
+        "label": "Add Facebook",
+        "default": true
+      },
+      {
+      "type": "url",
+      "id": "fblink",
+      "label": "Facebook URL"
+      },
+      {
+        "type": "checkbox",
+        "id": "twitter",
+        "label": "Add twitter",
+        "default": true
+      },
+      {
+      "type": "url",
+      "id": "twitterlink",
+      "label": "Twitter URL"
+      },
+      {
+        "type": "checkbox",
+        "id": "instagram",
+        "label": "Add instagram",
+        "default": true
+      },
+      {
+      "type": "url",
+      "id": "iglink",
+      "label": "Instagram URL"
+      },
+      {
+        "type": "checkbox",
+        "id": "youtube",
+        "label": "Add youtube",
+        "default": true
+      },
+      {
+        "type": "url",
+        "id": "youtubelink",
+        "label": "Youtube URL"
+      },
+      {
+        "type": "checkbox",
+        "id": "pinterest",
+        "label": "Add pinterest",
+        "default": true
+      },
+      {
+        "type": "url",
+        "id": "pinterestlink",
+        "label": "Pinterest URL"
       }
     ],
     "blocks": [
@@ -224,81 +323,6 @@
             "min": 15,
             "max": 95,
             "unit": "%"
-          }
-        ]
-      },
-      {
-        "type": "socialicon",
-        "name": "Social Icon",
-        "settings": [
-          {
-            "type": "text",
-            "id": "socialtitle",
-            "label": "Heading"
-          },
-          {
-            "type": "range",
-            "id": "container_width",
-            "label": "Column width",
-            "default": 25,
-            "min": 15,
-            "max": 95,
-            "unit": "%"
-          },
-          {
-            "type": "checkbox",
-            "id": "facebook",
-            "label": "Add Facebook",
-            "default": true
-          },
-          {
-           "type": "url",
-           "id": "fblink",
-           "label": "Facebook URL"
-          },
-          {
-            "type": "checkbox",
-            "id": "twitter",
-            "label": "Add twitter",
-            "default": true
-          },
-          {
-           "type": "url",
-           "id": "twitterlink",
-           "label": "Twitter URL"
-          },
-          {
-            "type": "checkbox",
-            "id": "instagram",
-            "label": "Add instagram",
-            "default": true
-          },
-          {
-           "type": "url",
-           "id": "iglink",
-           "label": "Instagram URL"
-          },
-          {
-            "type": "checkbox",
-            "id": "youtube",
-            "label": "Add youtube",
-            "default": true
-          },
-          {
-           "type": "url",
-           "id": "youtubelink",
-           "label": "Youtube URL"
-          },
-          {
-            "type": "checkbox",
-            "id": "pinterest",
-            "label": "Add pinterest",
-            "default": true
-          },
-          {
-           "type": "url",
-           "id": "pinterestlink",
-           "label": "Pinterest URL"
           }
         ]
       },
