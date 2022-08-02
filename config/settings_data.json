@@ -127,41 +127,32 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "1494301487049": {
+          "f2b934d1-9cbf-4b1c-9549-271d6ff8e0a5": {
             "type": "menu",
             "settings": {
               "show_footer_title": false,
-              "menu": "footer",
-              "container_width": 25
+              "menu": "footer-secondary-menu",
+              "container_width": 30
             }
           },
-          "1494292487693": {
-            "type": "newsletter",
+          "876995c2-2658-4c24-8a7f-7d458ccbb2d3": {
+            "type": "menu",
             "settings": {
               "show_footer_title": true,
-              "title": "Sign up and save",
-              "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
-              "container_width": 33
-            }
-          },
-          "1494301487048": {
-            "type": "logo_social",
-            "settings": {
-              "desktop_logo_height": 50,
-              "container_width": 95
+              "menu": "contact-us-menu",
+              "container_width": 41
             }
           }
         },
         "block_order": [
-          "1494301487049",
-          "1494292487693",
-          "1494301487048"
+          "f2b934d1-9cbf-4b1c-9549-271d6ff8e0a5",
+          "876995c2-2658-4c24-8a7f-7d458ccbb2d3"
         ],
         "settings": {
           "show_locale_selector": true,
-          "show_currency_selector": true,
-          "show_currency_flags": true,
-          "show_payment_icons": false,
+          "show_currency_selector": false,
+          "show_currency_flags": false,
+          "show_payment_icons": true,
           "show_copyright": false,
           "copyright_text": ""
         }
@@ -675,18 +666,58 @@
           "title": "Featured collection",
           "home_featured_products": "programs",
           "per_row": 3,
-          "rows": 1,
+          "rows": 5,
           "mobile_scrollable": true,
           "view_all": true,
           "divider": false
+        }
+      },
+      "1659456900cf051807": {
+        "type": "promo-grid",
+        "blocks": {
+          "1659456900cf051807-0": {
+            "type": "simple",
+            "settings": {
+              "link": "",
+              "text": "",
+              "width": "50",
+              "height": 300,
+              "color_tint": "#000000",
+              "color_tint_opacity": 8,
+              "framed": false
+            }
+          },
+          "1659456900cf051807-1": {
+            "type": "simple",
+            "settings": {
+              "link": "",
+              "text": "",
+              "width": "50",
+              "height": 300,
+              "color_tint": "#000000",
+              "color_tint_opacity": 8,
+              "framed": false
+            }
+          }
+        },
+        "block_order": [
+          "1659456900cf051807-0",
+          "1659456900cf051807-1"
+        ],
+        "settings": {
+          "full_width": false,
+          "gutter_size": 20,
+          "space_above": true,
+          "space_below": true
         }
       }
     },
     "content_for_index": [
       "16586969045d1bea72",
       "165915392273b5e1b3",
+      "1659455299828670c4",
       "1659163211fdb4141f",
-      "1659455299828670c4"
+      "1659456900cf051807"
     ]
   },
   "presets": {
