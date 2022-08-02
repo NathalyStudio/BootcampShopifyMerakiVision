@@ -11,7 +11,7 @@
   <input type="hidden" name="contact[tags]" value="prospect,newsletter">
   <input type="hidden" name="contact[context]" value="{{ snippet_context }}">
   <div class="input-group newsletter__input-group">
-    <input type="email" value="{% if customer %}{{ customer.email }}{% endif %}" placeholder="Email" name="contact[email]" id="Email-{{ section_id }}" class="input-group-field newsletter__input" autocorrect="off" autocapitalize="off">
+    <input type="email" style="color: #C9B4D6;"value="{% if customer %}{{ customer.email }}{% endif %}" placeholder="Email" name="contact[email]" id="Email-{{ section_id }}" class="input-group-field newsletter__input" autocorrect="off" autocapitalize="off">
     <div class="input-group-btn">
       <button type="submit" class="btn" name="commit">
         <span class="form__submit--large customSendBtn"> > </span>
