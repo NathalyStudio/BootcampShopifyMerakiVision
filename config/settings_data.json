@@ -130,7 +130,7 @@
           "1494301487049": {
             "type": "menu",
             "settings": {
-              "show_footer_title": false,
+              "show_footer_title": true,
               "menu": "footer",
               "container_width": 25
             }
@@ -159,9 +159,9 @@
         ],
         "settings": {
           "show_locale_selector": true,
-          "show_currency_selector": true,
-          "show_currency_flags": true,
-          "show_payment_icons": false,
+          "show_currency_selector": false,
+          "show_currency_flags": false,
+          "show_payment_icons": true,
           "show_copyright": false,
           "copyright_text": ""
         }
@@ -675,18 +675,58 @@
           "title": "Featured collection",
           "home_featured_products": "programs",
           "per_row": 3,
-          "rows": 1,
+          "rows": 5,
           "mobile_scrollable": true,
           "view_all": true,
           "divider": false
+        }
+      },
+      "1659456900cf051807": {
+        "type": "promo-grid",
+        "blocks": {
+          "1659456900cf051807-0": {
+            "type": "simple",
+            "settings": {
+              "link": "",
+              "text": "",
+              "width": "50",
+              "height": 300,
+              "color_tint": "#000000",
+              "color_tint_opacity": 8,
+              "framed": false
+            }
+          },
+          "1659456900cf051807-1": {
+            "type": "simple",
+            "settings": {
+              "link": "",
+              "text": "",
+              "width": "50",
+              "height": 300,
+              "color_tint": "#000000",
+              "color_tint_opacity": 8,
+              "framed": false
+            }
+          }
+        },
+        "block_order": [
+          "1659456900cf051807-0",
+          "1659456900cf051807-1"
+        ],
+        "settings": {
+          "full_width": false,
+          "gutter_size": 20,
+          "space_above": true,
+          "space_below": true
         }
       }
     },
     "content_for_index": [
       "16586969045d1bea72",
       "165915392273b5e1b3",
+      "1659455299828670c4",
       "1659163211fdb4141f",
-      "1659455299828670c4"
+      "1659456900cf051807"
     ]
   },
   "presets": {
