@@ -64,6 +64,9 @@
             {% render 'footer-newsletter', block: block %}
           {% when 'menu' %}
             {% render 'footer-menu', block: block %}
+          {%- when 'socialIcons' -%}
+          {% render 'socialicons', block: block %}
+            
           {% endcase %}
         </div>
       {% endfor %}
@@ -221,6 +224,67 @@
             "min": 15,
             "max": 95,
             "unit": "%"
+          }
+        ]
+      },
+      {
+        "type": "socialicon",
+        "name": "Social Icon",
+        "settings": [
+          {
+            "type": "text",
+            "id": "socialtitle",
+            "label": "Follow Us"
+          },
+          {
+            "type": "checkbox",
+            "id": "facebook",
+            "label": "Add Facebook"
+          },
+          {
+           "type": "url",
+           "id": "fblink",
+           "label": "Facebook URL"
+          },
+          {
+            "type": "checkbox",
+            "id": "twitter",
+            "label": "Add twitter"
+          },
+          {
+           "type": "url",
+           "id": "twitterlink",
+           "label": "Twitter URL"
+          },
+          {
+            "type": "checkbox",
+            "id": "instagram",
+            "label": "Add instagram"
+          },
+          {
+           "type": "url",
+           "id": "iglink",
+           "label": "Instagram URL"
+          },
+          {
+            "type": "checkbox",
+            "id": "youtube",
+            "label": "Add youtube"
+          },
+          {
+           "type": "url",
+           "id": "youtubelink",
+           "label": "Youtube URL"
+          },
+          {
+            "type": "checkbox",
+            "id": "pinterest",
+            "label": "Add pinterest"
+          },
+          {
+           "type": "url",
+           "id": "pinterestlink",
+           "label": "Pinterest URL"
           }
         ]
       },
