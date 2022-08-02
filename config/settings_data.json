@@ -127,35 +127,26 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "1494301487049": {
+          "f2b934d1-9cbf-4b1c-9549-271d6ff8e0a5": {
+            "type": "menu",
+            "settings": {
+              "show_footer_title": false,
+              "menu": "footer-secondary-menu",
+              "container_width": 30
+            }
+          },
+          "876995c2-2658-4c24-8a7f-7d458ccbb2d3": {
             "type": "menu",
             "settings": {
               "show_footer_title": true,
-              "menu": "footer",
-              "container_width": 25
-            }
-          },
-          "1494292487693": {
-            "type": "newsletter",
-            "settings": {
-              "show_footer_title": true,
-              "title": "Sign up and save",
-              "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
-              "container_width": 33
-            }
-          },
-          "1494301487048": {
-            "type": "logo_social",
-            "settings": {
-              "desktop_logo_height": 50,
-              "container_width": 95
+              "menu": "contact-us-menu",
+              "container_width": 41
             }
           }
         },
         "block_order": [
-          "1494301487049",
-          "1494292487693",
-          "1494301487048"
+          "f2b934d1-9cbf-4b1c-9549-271d6ff8e0a5",
+          "876995c2-2658-4c24-8a7f-7d458ccbb2d3"
         ],
         "settings": {
           "show_locale_selector": true,
