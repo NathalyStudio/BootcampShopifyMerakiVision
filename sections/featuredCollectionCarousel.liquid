@@ -1,3 +1,9 @@
+{{ 'owl.carousel.min.css' | asset_url | stylesheet_tag }}
+{{ 'owl.theme.default.min.css' | asset_url | stylesheet_tag }}
+
+
+<script src="jquery.min.js"></script>
+<script src="../assets/owl.carousel.min.js"></script> 
 {% if section.settings.divider %}<div class="section--divider">{% endif %}
 
     <div class="page-width">
@@ -8,7 +14,7 @@
       {% endif %}
     
       <div class="grid grid--uniform{% unless section.settings.enable_gutter %} grid--no-gutters{% endunless %}">
-    
+        
         {%- assign isEmpty = true -%}
     
         {% if section.blocks.size > 0 %}
@@ -17,8 +23,8 @@
     
         {% for block in section.blocks %}
           {%- assign collection = collections[block.settings.collection] -%}
-          {%- assign background_position = block.settings.focal_point -%}
-    
+          <!-- {%- assign background_position = block.settings.focal_point -%}
+     -->
           {% case section.settings.per_row %}
           {% when 2 %}
             {%- assign grid_item_width = 'medium-up--one-half' -%}
@@ -26,15 +32,17 @@
             {%- assign grid_item_width = 'small--one-half medium-up--one-third' -%}
           {% when 4 %}
             {%- assign grid_item_width = 'small--one-half medium-up--one-quarter' -%}
-          {% when 5 %}
-            {%- assign grid_item_width = 'small--one-half medium-up--one-fifth' -%}
           {% endcase %}
     
-          {% render 'collection-grid-item',
-            collection: collection,
-            block: block,
-            grid_item_width: grid_item_width,
-            per_row: section.settings.per_row %}
+        <div class="owl-carousel owl-theme"> 
+            <div class="item">
+                {% render 'collection-grid-item',
+                collection: collection,
+                block: block,
+                grid_item_width: grid_item_width  %}
+            </div>
+        </div>
+          
         {% endfor %}
     
         {% if isEmpty %}
@@ -53,7 +61,31 @@
     </div>
     
     {% if section.settings.divider %}</div>{% endif %}
-    
+
+    \<script>
+        $('.owl-carousel').owlCarousel({
+            stagePadding: 50,
+            loop:true,
+            lazyLoad: true,
+            margin:10,
+            responsiveClass:true,
+            responsive:{
+                0:{
+                    items:1,
+                    nav:true
+                },
+                600:{
+                    items:2,
+                    nav:false
+                },
+                1000:{
+                    items:3,
+                    nav:true,
+                    loop:false
+                }
+            }
+        })
+    </script>
     
     {% schema %}
       {
