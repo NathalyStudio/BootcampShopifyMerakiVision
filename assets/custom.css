@@ -21,3 +21,12 @@
     font-size: 14px;
     line-height: 140%;
 }
+@media (min-width:2560px){
+    .site-footer .footer__collapsible p{
+        font-size: 30px;
+        line-height: 140%;
+    }
+    .footer__title{
+        font-size: 32px;
+    }
+}
