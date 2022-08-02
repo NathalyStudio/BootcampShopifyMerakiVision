@@ -156,6 +156,7 @@
             "type": "socialicon",
             "settings": {
               "socialtitle": "Follow Us",
+              "container_width": 57,
               "facebook": true,
               "fblink": "",
               "twitter": true,
