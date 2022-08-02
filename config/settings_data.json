@@ -754,6 +754,7 @@
           "1659463544d81a0614-0": {
             "type": "logo_image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Frame_365.png",
               "link": ""
             }
           },
@@ -767,12 +768,14 @@
           "1659463544d81a0614-2": {
             "type": "logo_image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Frame_356.png",
               "link": ""
             }
           },
           "1659463544d81a0614-3": {
             "type": "logo_image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Frame_357.png",
               "link": ""
             }
           }
