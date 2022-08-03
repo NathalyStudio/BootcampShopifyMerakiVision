@@ -140,3 +140,25 @@
     });
     });
 </script>
+
+{% schema %}
+{
+  "name": "Carousel image",
+  "class": "slideshow",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "placeholder": "Title",
+      "default": "Heading",
+      "info": "Heading of the section"
+    }
+  ],
+ "presets": [
+    {
+        "category": "slideshow",
+        "name":"Carousel Image"
+    }
+ ],
+}
+{% endschema %}
