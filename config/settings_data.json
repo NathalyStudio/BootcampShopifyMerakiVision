@@ -286,7 +286,8 @@
           "sections-1592410318615",
           "sections-1592410272428"
         ],
-        "settings": {}
+        "settings": {
+        }
       },
       "product-story-sections": {
         "type": "product-story-sections",
@@ -370,14 +371,16 @@
           "1592410318615",
           "1592410272428"
         ],
-        "settings": {}
+        "settings": {
+        }
       },
       "page-sections-template": {
         "type": "page-sections-template",
         "blocks": {
           "page-image-hero": {
             "type": "image-hero",
-            "settings": {}
+            "settings": {
+            }
           },
           "page-rich-text": {
             "type": "rich-text",
@@ -389,7 +392,8 @@
           },
           "page-text-columns": {
             "type": "text-columns",
-            "settings": {}
+            "settings": {
+            }
           },
           "page-background-image-text": {
             "type": "background-image-text",
@@ -450,11 +454,13 @@
         "blocks": {
           "1524772785241": {
             "type": "subcollections",
-            "settings": {}
+            "settings": {
+            }
           },
           "1524772580942": {
             "type": "tags_all",
-            "settings": {}
+            "settings": {
+            }
           }
         },
         "block_order": [
@@ -566,7 +572,8 @@
         "block_order": [
           "16586969045d1bea72-0"
         ],
-        "settings": {}
+        "settings": {
+        }
       },
       "1658902223d07a02f1": {
         "type": "bg-featured-collection",
@@ -724,6 +731,28 @@
           "blog_image_size": "wide",
           "divider": false
         }
+      },
+      "16595482934f0a5605": {
+        "type": "testCarousel",
+        "blocks": {
+          "16595482934f0a5605-0": {
+            "type": "slide",
+            "settings": {
+            }
+          },
+          "16595482934f0a5605-1": {
+            "type": "slide",
+            "settings": {
+            }
+          }
+        },
+        "block_order": [
+          "16595482934f0a5605-0",
+          "16595482934f0a5605-1"
+        ],
+        "settings": {
+          "title": "Carousel"
+        }
       }
     },
     "content_for_index": [
@@ -733,7 +762,8 @@
       "1658902223d07a02f1",
       "165916080932c1d343",
       "165916298292a43a68",
-      "1659163211fdb4141f"
+      "1659163211fdb4141f",
+      "16595482934f0a5605"
     ]
   },
   "presets": {
@@ -944,19 +974,23 @@
           "blocks": {
             "1499789718857-0": {
               "type": "collection",
-              "settings": {}
+              "settings": {
+              }
             },
             "1499789718857-1": {
               "type": "collection",
-              "settings": {}
+              "settings": {
+              }
             },
             "1499789718857-2": {
               "type": "collection",
-              "settings": {}
+              "settings": {
+              }
             },
             "1499789718857-3": {
               "type": "collection",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
@@ -1066,7 +1100,8 @@
             "sections-1592410318615",
             "sections-1592410272428"
           ],
-          "settings": {}
+          "settings": {
+          }
         },
         "product-story-sections": {
           "type": "product-story-sections",
@@ -1150,14 +1185,16 @@
             "1592410318615",
             "1592410272428"
           ],
-          "settings": {}
+          "settings": {
+          }
         },
         "page-sections-template": {
           "type": "page-sections-template",
           "blocks": {
             "page-image-hero": {
               "type": "image-hero",
-              "settings": {}
+              "settings": {
+              }
             },
             "page-rich-text": {
               "type": "rich-text",
@@ -1169,7 +1206,8 @@
             },
             "page-text-columns": {
               "type": "text-columns",
-              "settings": {}
+              "settings": {
+              }
             },
             "page-background-image-text": {
               "type": "background-image-text",
@@ -1204,7 +1242,8 @@
         },
         "newsletter-popup": {
           "type": "newsletter-popup",
-          "settings": {}
+          "settings": {
+          }
         },
         "1524769873765": {
           "type": "slideshow",
@@ -1262,11 +1301,13 @@
           "blocks": {
             "1524772785241": {
               "type": "subcollections",
-              "settings": {}
+              "settings": {
+              }
             },
             "1524772580942": {
               "type": "tags_all",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
@@ -1297,7 +1338,8 @@
         },
         "1525118065355": {
           "type": "map",
-          "settings": {}
+          "settings": {
+          }
         },
         "1525295772132": {
           "type": "featured-collection",
@@ -1760,7 +1802,8 @@
             "sections-1592410318615",
             "sections-1592410272428"
           ],
-          "settings": {}
+          "settings": {
+          }
         },
         "product-story-sections": {
           "type": "product-story-sections",
@@ -1844,7 +1887,8 @@
             "1592410318615",
             "1592410272428"
           ],
-          "settings": {}
+          "settings": {
+          }
         },
         "page-sections-template": {
           "type": "page-sections-template",
@@ -2666,7 +2710,8 @@
           "blocks": {
             "1524768779513": {
               "type": "logo",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
@@ -2687,7 +2732,8 @@
           "blocks": {
             "1494292487693": {
               "type": "newsletter",
-              "settings": {}
+              "settings": {
+              }
             },
             "1526406521795": {
               "type": "menu",
@@ -2844,7 +2890,8 @@
             "sections-1592410318615",
             "sections-1592410272428"
           ],
-          "settings": {}
+          "settings": {
+          }
         },
         "product-story-sections": {
           "type": "product-story-sections",
@@ -2928,7 +2975,8 @@
             "1592410318615",
             "1592410272428"
           ],
-          "settings": {}
+          "settings": {
+          }
         },
         "page-sections-template": {
           "type": "page-sections-template",
@@ -2943,7 +2991,8 @@
             },
             "page-text-columns": {
               "type": "text-columns",
-              "settings": {}
+              "settings": {
+              }
             },
             "page-background-image-text": {
               "type": "background-image-text",
@@ -2976,7 +3025,8 @@
         },
         "newsletter-popup": {
           "type": "newsletter-popup",
-          "settings": {}
+          "settings": {
+          }
         },
         "1524768368258": {
           "type": "slideshow",
@@ -3016,11 +3066,13 @@
           "blocks": {
             "1524772785241": {
               "type": "subcollections",
-              "settings": {}
+              "settings": {
+              }
             },
             "1524772580942": {
               "type": "tags_all",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
@@ -3039,15 +3091,18 @@
           "blocks": {
             "1525290496166-0": {
               "type": "collection",
-              "settings": {}
+              "settings": {
+              }
             },
             "1525290496166-2": {
               "type": "collection",
-              "settings": {}
+              "settings": {
+              }
             },
             "1525290496166-1": {
               "type": "collection",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
