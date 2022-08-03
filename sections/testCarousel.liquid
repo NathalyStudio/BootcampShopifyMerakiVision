@@ -143,21 +143,46 @@
 
 {% schema %}
 {
-  "name": "Carousel image",
+  "name": "Carousel Test",
+  "tag": "section",
+  "class": "slideshow",
+  "limit": 1,
   "settings": [
     {
       "type": "text",
       "id": "title",
-      "placeholder": "Title",
-      "default": "Heading",
-      "info": "Heading of the section"
+      "label": "Heading"
     }
   ],
- "presets": [
+  "max_blocks": 5,
+  "blocks": [
+     {
+       "name": "Slide",
+       "type": "slide",
+       "settings": [
+         {
+           "type": "image_picker",
+           "id": "image",
+           "label": "Image"
+         }
+       ]
+     }
+  ],
+  "presets": [
     {
-        "category": "Slideshow",
-        "name":"Carousel Image"
+      "name": "Carousel Test",
+      "settings": {
+        "title": "Carousel"
+      },
+      "blocks": [
+        {
+          "type": "slide"
+        },
+        {
+          "type": "slide"
+        }
+      ]
     }
- ],
+  ]
 }
 {% endschema %}
