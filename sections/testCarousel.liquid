@@ -30,7 +30,7 @@
   
          <!-- Control buttons -->
         <button class="btn btn-next">></button>
-        <button class="btn btn-prev"><
+        <button class="btn btn-prev"></button>
       </div>
 </section>
 
@@ -42,52 +42,53 @@
     }
     
     .slider {
-    width: 100%;
-    max-width: 800px;
-    height: 350px;
-    position: relative;
-    /* overflow: hidden; */
+        width: 100%;
+        max-width: 800px;
+        height: 350px;
+        position: relative;
+        overflow: hidden;  /* <===  */
+        border-radius: 15px;
     }
 
     .slide {
-    width: 100%;
-    max-width: 800px;
-    height: 350px;
-    position: absolute;
-    transition: all 0.5s;
+        width: 100%;
+        max-width: 800px;
+        height: 350px;
+        position: absolute;
+        transition: all 0.5s;
     }
 
     .slide img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 
     .btn {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    padding: 10px;
-    border: none;
-    border-radius: 50%;
-    z-index: 10px;
-    cursor: pointer;
-    background-color: #fff;
-    font-size: 18px;
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        padding: 10px;
+        border: none;
+        border-radius: 50%;
+        z-index: 10px;
+        cursor: pointer;
+        background-color: #fff;
+        font-size: 18px;
     }
 
     .btn:active {
-    transform: scale(1.1);
+        transform: scale(1.1);
     }
 
     .btn-prev {
-    top: 45%;
-    left: 2%;
+        top: 45%;
+        left: 2%;
     }
 
     .btn-next {
-    top: 45%;
-    right: 2%;
+        top: 45%;
+        right: 2%;
     }
 </style>
 <script>
@@ -100,13 +101,8 @@
     });
     // current slide counter
     let curSlide = 0;
-
-    // select next slide button
-    const nextSlide = document.querySelector(".btn-next");
-
     // maximum number of slides
     let maxSlide = slides.length - 1;
-
     // add event listener and navigation functionality
     nextSlide.addEventListener("click", function () {
     // check if current slide is the last and reset current slide
@@ -131,7 +127,7 @@
     if (curSlide === 0) {
         curSlide = maxSlide;
     } else {
-        curSlide-;
+        curSlide--;
     }
 
     //   move slide by 100%
