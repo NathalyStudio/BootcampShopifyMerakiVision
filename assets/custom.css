@@ -1,35 +1,7 @@
 .desktopWidth{
-    max-width: 1600px;
+    max-width: 1148px;
     width: 100%;
 }
 .image-wrap{
     background-color:#FBEFEE;
-}
-
-.footer__title{
-    font-weight: 900;
-    font-size: 18px;
-    line-height: 16px;
-    letter-spacing: 0;
-    font-family: 'Raleway';
-    color: #552473;
-}
-.site-footer .footer__collapsible p{
-    font-family: 'Source Sans Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 140%;
-}
-/* .page-width .grid .footer__small-text .site-footer a{
-    display: none;
-} */
-@media (min-width:2560px){
-    .site-footer .footer__collapsible p{
-        font-size: 30px;
-        line-height: 140%;
-    }
-    .footer__title{
-        font-size: 32px;
-    }
 }

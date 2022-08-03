@@ -5,7 +5,7 @@
 
 {% if section.settings.divider %}<div class="section--divider">{% endif %}
 
-<div
+<div style="background-image: url('{{ section.settings.image | asset_url }}');"
   id="CollectionSection-{{ section.id }}"
   data-section-id="{{ section.id }}"
   data-section-type="collection-template">
@@ -15,7 +15,7 @@
         <h2 class="section-header__title">
           {{ section.settings.title }}
         </h2>
-      <!--   {% if section.settings.view_all and section.settings.rows == 1 %}
+        <!-- {% if section.settings.view_all and section.settings.rows == 1 %}
           <a href="{{ collections[section.settings.home_featured_products].url }}" class="btn btn--secondary btn--small section-header__link">{{ 'collections.general.all_of_collection' | t }}</a>
         {% endif %} -->
       </div>
@@ -54,7 +54,7 @@
                     <a href="{{ product.url | within: collection }}" class="grid-product__link {% if sold_out %} grid-product__link--disabled{% endif %}">
                       <div class="grid-product__image-mask">
                         {% capture current %}{% cycle 1, 2, 3, 4, 5, 6 %}{% endcapture %}
-                        <div class="image-wrap">{{ 'product-' | append: current | placeholder_svg_tag: 'placeholder-svg' }}</div>
+                        <div class="image-wrap" style="background-color:{{section.settings.color_accent2}}">{{ 'product-' | append: current | placeholder_svg_tag: 'placeholder-svg' }}</div>
                       </div>
                       <div class="grid-product__meta">
                         <div class="grid-product__title">{{ 'home_page.onboarding.product_title' | t }}</div>
@@ -111,9 +111,20 @@
 
 {% schema %}
   {
-    "name": "Featured collection",
+    "name": "Collection w/img BG",
     "class": "index-section",
     "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+      },  
+      {
+        "type": "color",
+        "id": "color_accent2",
+        "label": "Background product image",
+        "default": "#FFFFFF"
+      },
       {
         "type": "text",
         "id": "title",
@@ -163,9 +174,8 @@
       }
     ],
     "presets": [{
-      "name": "Featured collection",
+      "name": "Collection w/img BG",
       "category": "Collection"
-    }],
-    "blocks" : []
+    }]
   }
 {% endschema %}

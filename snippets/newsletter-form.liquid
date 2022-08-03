@@ -11,40 +11,14 @@
   <input type="hidden" name="contact[tags]" value="prospect,newsletter">
   <input type="hidden" name="contact[context]" value="{{ snippet_context }}">
   <div class="input-group newsletter__input-group">
-    <input type="email" style="color: #C9B4D6;"value="{% if customer %}{{ customer.email }}{% endif %}" placeholder="Email" name="contact[email]" id="Email-{{ section_id }}" class="input-group-field newsletter__input" autocorrect="off" autocapitalize="off">
+    <input type="email" value="{% if customer %}{{ customer.email }}{% endif %}" placeholder="{{ 'general.newsletter_form.newsletter_email' | t }}" name="contact[email]" id="Email-{{ section_id }}" class="input-group-field newsletter__input" autocorrect="off" autocapitalize="off">
     <div class="input-group-btn">
       <button type="submit" class="btn" name="commit">
-        <span class="form__submit--large customSendBtn"> > </span>
-        <!-- <span class="form__submit--large">{{ 'general.newsletter_form.submit' | t }}</span>
+        <span class="form__submit--large">{{ 'general.newsletter_form.submit' | t }}</span>
         <span class="form__submit--small">
           <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon--wide icon-arrow-right" viewBox="0 0 50 15"><path d="M0 9.63V5.38h35V0l15 7.5L35 15V9.63z"/></svg>
-        </span> -->
+        </span>
       </button>
     </div>
   </div>
 {% endform %}
-<style>
-  .customSendBtn{
-    background-color: transparent;
-    color: #552473;
-  }
-
-  input#Email-1659461943704877fc {
-    border-bottom: 2px solid #361E45;
-    color: #C9B4D6;
-  }
-  p.h3 {
-    text-transform: uppercase;
-    font-size: 16px;
-    font-weight: 400;
-  }
-  .rte{
-    max-width: 446px;
-    margin-left: auto;
-    margin-right: auto;
-  }
- 
-  input#Email-1659461943704877fc {
-    border-bottom: 2px solid #361E45;
-  }
-</style>
