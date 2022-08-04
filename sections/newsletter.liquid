@@ -7,14 +7,6 @@
   .newsletter-{{ section.id }} .newsletter__input::-webkit-input-placeholder { color: {{ section.settings.color_text }}; }
   .newsletter-{{ section.id }} .newsletter__input::-moz-placeholder { color: {{ section.settings.color_text }}; }
   .newsletter-{{ section.id }} .newsletter__input::-ms-input-placeholder { color: {{ section.settings.color_text }}; }
-  .rte>p:last-child {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 42px;
-    text-align: center;
-    text-transform: capitalize;
-  }
 {% endstyle %}
 
 <div class="newsletter-section newsletter-{{ section.id }}{% if section.settings.color_background == settings.color_body_bg %} newsletter-section--with-divider{% endif %}">

@@ -127,60 +127,41 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "69e4482d-3b20-401a-8513-febc56e1c46b": {
-            "type": "custom",
-            "settings": {
-              "show_footer_title": true,
-              "title": "About Nurture Parenting",
-              "text": "<p>Nurture Parenting’s Karen Faulkner is a baby development, sleep and toddler expert who brings calm and sleep into families and gives parents their confidence back.<\/p><p><br\/>Cerris Pty Ltd trading as Nurture Parenting – ABN 42 623 216 384 – Sydney, Australia<\/p>",
-              "container_width": 47
-            }
-          },
-          "876995c2-2658-4c24-8a7f-7d458ccbb2d3": {
+          "1494301487049": {
             "type": "menu",
             "settings": {
-              "show_footer_title": true,
-              "menu": "contact-us-menu",
-              "container_width": 30
+              "show_footer_title": false,
+              "menu": "footer",
+              "container_width": 25
             }
           },
-          "33020611-93d2-44bd-914e-73187e84d30a": {
-            "type": "menu",
+          "1494292487693": {
+            "type": "newsletter",
             "settings": {
               "show_footer_title": true,
-              "menu": "shop",
-              "container_width": 15
+              "title": "Sign up and save",
+              "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
+              "container_width": 33
             }
           },
-          "5d662c83-1fd1-4550-8f40-07ca5ce386b8": {
-            "type": "socialicon",
+          "1494301487048": {
+            "type": "logo_social",
             "settings": {
-              "socialtitle": "Follow Us",
-              "container_width": 57,
-              "facebook": true,
-              "fblink": "",
-              "twitter": true,
-              "twitterlink": "",
-              "instagram": true,
-              "iglink": "",
-              "youtube": true,
-              "youtubelink": "",
-              "pinterest": true,
-              "pinterestlink": ""
+              "desktop_logo_height": 50,
+              "container_width": 95
             }
           }
         },
         "block_order": [
-          "69e4482d-3b20-401a-8513-febc56e1c46b",
-          "876995c2-2658-4c24-8a7f-7d458ccbb2d3",
-          "33020611-93d2-44bd-914e-73187e84d30a",
-          "5d662c83-1fd1-4550-8f40-07ca5ce386b8"
+          "1494301487049",
+          "1494292487693",
+          "1494301487048"
         ],
         "settings": {
           "show_locale_selector": true,
-          "show_currency_selector": false,
-          "show_currency_flags": false,
-          "show_payment_icons": true,
+          "show_currency_selector": true,
+          "show_currency_flags": true,
+          "show_payment_icons": false,
           "show_copyright": false,
           "copyright_text": ""
         }
@@ -594,6 +575,20 @@
         "settings": {
         }
       },
+      "1658902223d07a02f1": {
+        "type": "bg-featured-collection",
+        "settings": {
+          "color_accent": "#f8f8f8",
+          "color_accent2": "#fbefee",
+          "title": "E-Books",
+          "home_featured_products": "e-books",
+          "per_row": 4,
+          "rows": 1,
+          "mobile_scrollable": true,
+          "view_all": false,
+          "divider": false
+        }
+      },
       "165915392273b5e1b3": {
         "type": "featuredBrands",
         "blocks": {
@@ -673,6 +668,55 @@
           "divider": false
         }
       },
+      "1659159300754e539f": {
+        "type": "bg-featured-collection",
+        "settings": {
+          "color_accent": "{{ shop.brand.colors.primary[0].background }}",
+          "color_accent2": "#ffffff",
+          "title": "Our Programs",
+          "home_featured_products": "programs",
+          "per_row": 3,
+          "rows": 1,
+          "mobile_scrollable": true,
+          "view_all": true,
+          "divider": false
+        }
+      },
+      "165916080932c1d343": {
+        "type": "bg-featuredCollection",
+        "disabled": true,
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Frame_349.png",
+          "color_accent2": "#ffffff",
+          "title": "Our Programs",
+          "home_featured_products": "programs",
+          "per_row": 3,
+          "rows": 1,
+          "mobile_scrollable": true,
+          "view_all": true,
+          "divider": false
+        }
+      },
+      "165916298292a43a68": {
+        "type": "advanced-content",
+        "blocks": {
+          "165916298292a43a68-1": {
+            "type": "html",
+            "settings": {
+              "code": "<div id=\"shopify-section-template--15761942773989__icons-row\" class=\"shopify-section\">\n    <style data-shopify=\"\">#IconsRow--template--15761942773989__icons-row {\n          --text: #333333;\n          --text-lighten: #333333;\n        }#IconsRow--template--15761942773989__icons-row .icon {\n        height: 155px;\n      }\n      #IconsRow--template--15761942773989__icons-row .icons-row__icon {\n        width: 155px;\n      }<\/style>\n<section id=\"IconsRow--template--15761942773989__icons-row\" class=\"icons-row\" data-section-id=\"template--15761942773989__icons-row\" data-section-type=\"icons-row\">\n      <div class=\"wrapper\">\n     <div class=\"icons-row__wrapper text-center\">\n         \n    <div class=\"icons-row__slider items--4\" data-slider=\"\">\n<div class=\"icons-row__item\">\n<div class=\"icons-row__icon\"><div class=\"responsive-image\" style=\"padding-top: 100.0%\">\n            <img class=\"icons-row__image lazyautosizes lazyloaded\" src=\"\/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/t\/12\/assets\/blank_1x1.gif?v=50849316544257392421646055358\" data-widths=\"[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048, 2450, 2700, 3000, 3350, 3750, 4100]\" data-aspectratio=\"1.0\" data-sizes=\"auto\" alt=\"\" data-srcset=\"\/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_365_180x.png?v=1640843459 180w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_365_360x.png?v=1640843459 360w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_365_540x.png?v=1640843459 540w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_365_720x.png?v=1640843459 720w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_365_900x.png?v=1640843459 900w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_365_1080x.png?v=1640843459 1080w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_365_1296x.png?v=1640843459 1296w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_365_1512x.png?v=1640843459 1512w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_365_1728x.png?v=1640843459 1728w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_365_2048x.png?v=1640843459 2048w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_365_2450x.png?v=1640843459 2450w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_365_2700x.png?v=1640843459 2700w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_365_3000x.png?v=1640843459 3000w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_365_3350x.png?v=1640843459 3350w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_365_3750x.png?v=1640843459 3750w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_365_4100x.png?v=1640843459 4100w\" sizes=\"155px\" srcset=\"\/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_365_180x.png?v=1640843459 180w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_365_360x.png?v=1640843459 360w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_365_540x.png?v=1640843459 540w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_365_720x.png?v=1640843459 720w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_365_900x.png?v=1640843459 900w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_365_1080x.png?v=1640843459 1080w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_365_1296x.png?v=1640843459 1296w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_365_1512x.png?v=1640843459 1512w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_365_1728x.png?v=1640843459 1728w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_365_2048x.png?v=1640843459 2048w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_365_2450x.png?v=1640843459 2450w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_365_2700x.png?v=1640843459 2700w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_365_3000x.png?v=1640843459 3000w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_365_3350x.png?v=1640843459 3350w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_365_3750x.png?v=1640843459 3750w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_365_4100x.png?v=1640843459 4100w\">\n            <noscript>\n                <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_365_512x512.png?v=1640843459\" alt=\"\" class=\"icons-row__image\">\n            <\/noscript>\n        <\/div><\/div>\n<p class=\"icons-row__content\"><b>20+<\/b> years sleep consultant<br> experience<\/p>\n<\/div>\n<div class=\"icons-row__item\">\n<div class=\"icons-row__icon\"><div class=\"responsive-image\" style=\"padding-top: 100.0%\">\n            <img class=\"icons-row__image lazyautosizes lazyloaded\" src=\"\/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/t\/12\/assets\/blank_1x1.gif?v=50849316544257392421646055358\" data-widths=\"[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048, 2450, 2700, 3000, 3350, 3750, 4100]\" data-aspectratio=\"1.0\" data-sizes=\"auto\" alt=\"\" data-srcset=\"\/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_364_180x.png?v=1640843459 180w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_364_360x.png?v=1640843459 360w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_364_540x.png?v=1640843459 540w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_364_720x.png?v=1640843459 720w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_364_900x.png?v=1640843459 900w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_364_1080x.png?v=1640843459 1080w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_364_1296x.png?v=1640843459 1296w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_364_1512x.png?v=1640843459 1512w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_364_1728x.png?v=1640843459 1728w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_364_2048x.png?v=1640843459 2048w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_364_2450x.png?v=1640843459 2450w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_364_2700x.png?v=1640843459 2700w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_364_3000x.png?v=1640843459 3000w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_364_3350x.png?v=1640843459 3350w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_364_3750x.png?v=1640843459 3750w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_364_4100x.png?v=1640843459 4100w\" sizes=\"155px\" srcset=\"\/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_364_180x.png?v=1640843459 180w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_364_360x.png?v=1640843459 360w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_364_540x.png?v=1640843459 540w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_364_720x.png?v=1640843459 720w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_364_900x.png?v=1640843459 900w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_364_1080x.png?v=1640843459 1080w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_364_1296x.png?v=1640843459 1296w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_364_1512x.png?v=1640843459 1512w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_364_1728x.png?v=1640843459 1728w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_364_2048x.png?v=1640843459 2048w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_364_2450x.png?v=1640843459 2450w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_364_2700x.png?v=1640843459 2700w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_364_3000x.png?v=1640843459 3000w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_364_3350x.png?v=1640843459 3350w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_364_3750x.png?v=1640843459 3750w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_364_4100x.png?v=1640843459 4100w\">\n            <noscript>\n                <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_364_512x512.png?v=1640843459\" alt=\"\" class=\"icons-row__image\">\n            <\/noscript>\n        <\/div><\/div>\n<p class=\"icons-row__content\"><b>30+<\/b> years midwife <br>experience<\/p>\n<\/div>\n<div class=\"icons-row__item\">\n<div class=\"icons-row__icon\"><div class=\"responsive-image\" style=\"padding-top: 100.0%\">\n            <img class=\"icons-row__image lazyautosizes lazyloaded\" src=\"\/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/t\/12\/assets\/blank_1x1.gif?v=50849316544257392421646055358\" data-widths=\"[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048, 2450, 2700, 3000, 3350, 3750, 4100]\" data-aspectratio=\"1.0\" data-sizes=\"auto\" alt=\"\" data-srcset=\"\/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_356_180x.png?v=1640843253 180w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_356_360x.png?v=1640843253 360w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_356_540x.png?v=1640843253 540w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_356_720x.png?v=1640843253 720w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_356_900x.png?v=1640843253 900w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_356_1080x.png?v=1640843253 1080w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_356_1296x.png?v=1640843253 1296w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_356_1512x.png?v=1640843253 1512w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_356_1728x.png?v=1640843253 1728w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_356_2048x.png?v=1640843253 2048w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_356_2450x.png?v=1640843253 2450w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_356_2700x.png?v=1640843253 2700w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_356_3000x.png?v=1640843253 3000w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_356_3350x.png?v=1640843253 3350w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_356_3750x.png?v=1640843253 3750w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_356_4100x.png?v=1640843253 4100w\" sizes=\"155px\" srcset=\"\/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_356_180x.png?v=1640843253 180w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_356_360x.png?v=1640843253 360w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_356_540x.png?v=1640843253 540w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_356_720x.png?v=1640843253 720w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_356_900x.png?v=1640843253 900w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_356_1080x.png?v=1640843253 1080w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_356_1296x.png?v=1640843253 1296w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_356_1512x.png?v=1640843253 1512w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_356_1728x.png?v=1640843253 1728w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_356_2048x.png?v=1640843253 2048w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_356_2450x.png?v=1640843253 2450w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_356_2700x.png?v=1640843253 2700w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_356_3000x.png?v=1640843253 3000w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_356_3350x.png?v=1640843253 3350w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_356_3750x.png?v=1640843253 3750w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_356_4100x.png?v=1640843253 4100w\">\n            <noscript>\n                <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_356_512x512.png?v=1640843253\" alt=\"\" class=\"icons-row__image\">\n            <\/noscript>\n        <\/div><\/div>\n<p class=\"icons-row__content\"><b>2<\/b> Psychological <br>degrees<\/p>\n<\/div>\n<div class=\"icons-row__item\">\n<div class=\"icons-row__icon\"><div class=\"responsive-image\" style=\"padding-top: 100.0%\">\n            <img class=\"icons-row__image lazyautosizes lazyloaded\" src=\"\/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/t\/12\/assets\/blank_1x1.gif?v=50849316544257392421646055358\" data-widths=\"[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048, 2450, 2700, 3000, 3350, 3750, 4100]\" data-aspectratio=\"1.0\" data-sizes=\"auto\" alt=\"\" data-srcset=\"\/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_357_180x.png?v=1640843253 180w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_357_360x.png?v=1640843253 360w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_357_540x.png?v=1640843253 540w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_357_720x.png?v=1640843253 720w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_357_900x.png?v=1640843253 900w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_357_1080x.png?v=1640843253 1080w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_357_1296x.png?v=1640843253 1296w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_357_1512x.png?v=1640843253 1512w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_357_1728x.png?v=1640843253 1728w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_357_2048x.png?v=1640843253 2048w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_357_2450x.png?v=1640843253 2450w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_357_2700x.png?v=1640843253 2700w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_357_3000x.png?v=1640843253 3000w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_357_3350x.png?v=1640843253 3350w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_357_3750x.png?v=1640843253 3750w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_357_4100x.png?v=1640843253 4100w\" sizes=\"155px\" srcset=\"\/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_357_180x.png?v=1640843253 180w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_357_360x.png?v=1640843253 360w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_357_540x.png?v=1640843253 540w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_357_720x.png?v=1640843253 720w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_357_900x.png?v=1640843253 900w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_357_1080x.png?v=1640843253 1080w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_357_1296x.png?v=1640843253 1296w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_357_1512x.png?v=1640843253 1512w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_357_1728x.png?v=1640843253 1728w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_357_2048x.png?v=1640843253 2048w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_357_2450x.png?v=1640843253 2450w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_357_2700x.png?v=1640843253 2700w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_357_3000x.png?v=1640843253 3000w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_357_3350x.png?v=1640843253 3350w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_357_3750x.png?v=1640843253 3750w, \/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_357_4100x.png?v=1640843253 4100w\">\n            <noscript>\n                <img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0612\/7760\/2021\/files\/Frame_357_512x512.png?v=1640843253\" alt=\"\" class=\"icons-row__image\">\n            <\/noscript>\n        <\/div><\/div>\n<p class=\"icons-row__content\"><b>50,000+<\/b> families<br> helped<\/p>\n<\/div>\n<\/div>\n<\/div>\n      <\/div>\n    <\/section>\n    \n    <\/div>",
+              "width": "100%",
+              "alignment": "center"
+            }
+          }
+        },
+        "block_order": [
+          "165916298292a43a68-1"
+        ],
+        "settings": {
+          "full_width": false,
+          "space_around": true
+        }
+      },
       "1659163211fdb4141f": {
         "type": "blog-posts",
         "settings": {
@@ -688,74 +732,38 @@
           "divider": false
         }
       },
-      "1659455299828670c4": {
-        "type": "featured-collection",
-        "settings": {
-          "title": "Featured collection",
-          "home_featured_products": "programs",
-          "per_row": 3,
-          "rows": 5,
-          "mobile_scrollable": true,
-          "view_all": true,
-          "divider": false
-        }
-      },
-      "1659456900cf051807": {
-        "type": "promo-grid",
+      "16595482934f0a5605": {
+        "type": "testCarousel",
         "blocks": {
-          "1659456900cf051807-0": {
-            "type": "simple",
+          "16595482934f0a5605-0": {
+            "type": "slide",
             "settings": {
-              "link": "",
-              "text": "",
-              "width": "50",
-              "height": 300,
-              "color_tint": "#000000",
-              "color_tint_opacity": 8,
-              "framed": false
             }
           },
-          "1659456900cf051807-1": {
-            "type": "simple",
+          "16595482934f0a5605-1": {
+            "type": "slide",
             "settings": {
-              "link": "",
-              "text": "",
-              "width": "50",
-              "height": 300,
-              "color_tint": "#000000",
-              "color_tint_opacity": 8,
-              "framed": false
             }
           }
         },
         "block_order": [
-          "1659456900cf051807-0",
-          "1659456900cf051807-1"
+          "16595482934f0a5605-0",
+          "16595482934f0a5605-1"
         ],
         "settings": {
-          "full_width": false,
-          "gutter_size": 20,
-          "space_above": true,
-          "space_below": true
-        }
-      },
-      "1659461943704877fc": {
-        "type": "newsletter",
-        "settings": {
-          "title": "let’s keep in touch",
-          "text": "<p>Sign Up For Our Newsletter & Get 10% Off Your First Order<\/p>",
-          "color_background": "#fbefee",
-          "color_text": "#552473"
+          "title": "Carousel"
         }
       }
     },
     "content_for_index": [
       "16586969045d1bea72",
       "165915392273b5e1b3",
-      "1659455299828670c4",
+      "1659159300754e539f",
+      "1658902223d07a02f1",
+      "165916080932c1d343",
+      "165916298292a43a68",
       "1659163211fdb4141f",
-      "1659456900cf051807",
-      "1659461943704877fc"
+      "16595482934f0a5605"
     ]
   },
   "presets": {
