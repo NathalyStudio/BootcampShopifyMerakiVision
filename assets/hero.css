@@ -272,14 +272,10 @@ h1.CTA-title.font-extrabold {
         margin: auto auto auto 21%;
     }
 }
-@media(min-width:2300px){
-    .z-10.h-full.flex.flex-col.space-y-4.px-5.items-center.justify-center{
-        margin: auto auto auto 24%;
-    }
-}
+
 @media(min-width:2500px){
-    .CTA-title{
-        width: 56%;
+    .page-width {
+        padding: 0 148px 0 80px;
     }
 }
 @media(min-width: 2560px){
