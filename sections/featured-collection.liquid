@@ -21,9 +21,9 @@
     </div>
   {% endif %}
 
-  <div class="page-width {% if section.settings.desktop_scrollable %}page-width--flush-small{% endif %}">
-    <div {% if section.settings.desktop_scrollable %}class="grid-overflow-wrapper"{% endif %}>
-      <div class="grid grid--uniform" {% if section.settings.desktop_scrollable %}data-aos="overflow__animation"{% endif %}>
+  <div class="page-width {% if section.settings.mobile_scrollable %}page-width--flush-small{% endif %}">
+    <div {% if section.settings.mobile_scrollable %}class="grid-overflow-wrapper"{% endif %}>
+      <div class="grid grid--uniform" {% if section.settings.mobile_scrollable %}data-aos="overflow__animation"{% endif %}>
         {%- assign grid_item_width = 'small--one-half medium-up--one-third' -%}
 
         {% case per_row %}
@@ -78,12 +78,12 @@
           {% if section.settings.view_all %}
 
             {% if section.settings.rows > 1 %}
-              <div class="grid__item text-center {% if section.settings.desktop_scrollable %}small--hide{% endif %}">
+              <div class="grid__item text-center {% if section.settings.mobile_scrollable %}small--hide{% endif %}">
                 <a href="{{ collections[section.settings.home_featured_products].url }}" class="btn">{{ 'collections.general.all_of_collection' | t }}</a>
               </div>
             {% endif %}
 
-            {% if section.settings.desktop_scrollable %}
+            {% if section.settings.mobile_scrollable %}
               <div class="grid__item grid__item--view-all text-center {{ grid_item_width }} medium-up--hide">
                 <a href="{{ collections[section.settings.home_featured_products].url }}" class="grid-product__see-all">
                   {{ 'collections.general.view_all_products_html' | t: count: collection.products_count }}
@@ -144,8 +144,8 @@
       },
       {
         "type": "checkbox",
-        "id": "desktop_scrollable",
-        "label": "Enable swipe on desktop",
+        "id": "mobile_scrollable",
+        "label": "Enable swipe on mobile",
         "default": true
       },
       {
