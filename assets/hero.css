@@ -34,6 +34,9 @@ h1.CTA-title.font-extrabold {
     max-width: 750px;
     margin-left: 5%;
 }
+.site-nav__link{
+    text-transform: capitalize;
+}
 @media(max-width:480px){
     #hero-header {
         height: 105vh;
