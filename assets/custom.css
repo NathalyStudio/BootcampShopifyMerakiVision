@@ -53,4 +53,8 @@
    /*  page-width {
         max-width: 2560px;
     } */
+    div#CollectionSection-1659648438f18bc36e h2 {
+        text-transform: capitalize;
+        font-size: 60px;
+    }
 }
