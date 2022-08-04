@@ -5,3 +5,45 @@
 .image-wrap{
     background-color:#FBEFEE;
 }
+@media (min-width:1500px){
+    
+}
+@media (min-width:1600px){
+    page-width {
+        max-width: 1600px;
+    }
+}
+@media (min-width:1700px){
+    
+}
+@media (min-width:1800px){
+    page-width {
+        max-width: 1500px;
+    }
+}
+@media (min-width:1900px){
+    
+}
+@media (min-width:2000px){
+    
+}
+@media (min-width:2100px){
+    
+}
+@media (min-width:2200px){
+    
+}
+@media (min-width:2300px){
+    
+}
+@media (min-width:2400px){
+    
+}
+@media (min-width:2500px){
+    
+}
+@media (min-width:2560px){
+   /*  page-width {
+        max-width: 2560px;
+    } */
+}

@@ -1,3 +1,5 @@
+{{ 'custom.css' | asset_url | stylesheet_tag }}
+
 {% style %}
 .logo-bar--{{ section.id }} {
   opacity: {{ section.settings.logo_opacity | divided_by: 100.0 }};
@@ -8,6 +10,11 @@ img.logo-bar__image.lazyautosizes.lazyloaded {
     /* max-height: 116px; */
     min-width: 55px;
     width: auto;
+}
+@media (min-width:2560px){
+  page-width {
+      max-width: 2560px;
+  }
 }
 {% endstyle %}
 
