@@ -197,10 +197,7 @@ img.small--hide {
 
 }
 @media(min-width:2000px){
-    a.site-nav__link.site-nav__link--underline {
-        font-size: 20px;
-        font-weight: 500;
-    }
+   
     img.small--hide {
         width: 92px;
     }
@@ -250,9 +247,7 @@ img.small--hide {
     }
 }
 @media(min-width: 2560px){
-    a.site-nav__link.site-nav__link--underline {
-        font-size: 28px;
-    }
+    
     .CTA-title, .CTA__content {
         margin-left: 550px;
     }
