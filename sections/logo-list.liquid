@@ -2,6 +2,13 @@
 .logo-bar--{{ section.id }} {
   opacity: {{ section.settings.logo_opacity | divided_by: 100.0 }};
 }
+img.logo-bar__image.lazyautosizes.lazyloaded {
+  /* height: auto; */
+  min-height: 50px;
+  max-height: 95px;
+/*     min-width: 58px; */
+  width: auto;
+}
 {% endstyle %}
 
 {% if section.settings.divider %}<div class="section--divider">{% endif %}
