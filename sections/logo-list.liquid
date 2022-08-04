@@ -12,47 +12,49 @@ img.logo-bar__image.lazyautosizes.lazyloaded {
     width: auto;
 }
 @media (min-width:2560px){
-  .page-width {
+  .logo-list .page-width {
       max-width: 2560px;
   }
 }
 {% endstyle %}
 
 {% if section.settings.divider %}<div class="section--divider">{% endif %}
-
-<div class="page-width" data-aos="logo__animation">
-  {% if section.settings.title != blank %}
-    <div class="section-header">
-      <h2 class="section-header__title">{{ section.settings.title | escape }}</h2>
-    </div>
-  {% endif %}
-
-  {% if section.blocks.size > 0 %}
-    <div class="logo-bar logo-bar--{{ section.id }}">
-      {% for block in section.blocks %}
-        <div class="logo-bar__item" {{ block.shopify_attributes }}>
-          {% if block.settings.link != blank %}
-            <a href="{{ block.settings.link }}" class="logo-bar__link">
-          {% endif %}
-          {% if block.settings.image != blank %}
-            {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
-            <img class="logo-bar__image lazyload"
-                data-src="{{ img_url }}"
-                data-widths="[180, 360, 540, 720]"
-                data-aspectratio="{{ block.settings.image.aspect_ratio }}"
-                data-sizes="auto"
-                alt="{{ block.settings.image.alt }}">
-          {% else %}
-            {{ 'logo' | placeholder_svg_tag: 'placeholder-svg' }}
-          {% endif %}
-          {% if block.settings.link != blank %}
-            </a>
-          {% endif %}
-        </div>
-      {% endfor %}
-    </div>
-  {% endif %}
+<div class="logo-list">
+  <div class="page-width" data-aos="logo__animation">
+    {% if section.settings.title != blank %}
+      <div class="section-header">
+        <h2 class="section-header__title">{{ section.settings.title | escape }}</h2>
+      </div>
+    {% endif %}
+  
+    {% if section.blocks.size > 0 %}
+      <div class="logo-bar logo-bar--{{ section.id }}">
+        {% for block in section.blocks %}
+          <div class="logo-bar__item" {{ block.shopify_attributes }}>
+            {% if block.settings.link != blank %}
+              <a href="{{ block.settings.link }}" class="logo-bar__link">
+            {% endif %}
+            {% if block.settings.image != blank %}
+              {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+              <img class="logo-bar__image lazyload"
+                  data-src="{{ img_url }}"
+                  data-widths="[180, 360, 540, 720]"
+                  data-aspectratio="{{ block.settings.image.aspect_ratio }}"
+                  data-sizes="auto"
+                  alt="{{ block.settings.image.alt }}">
+            {% else %}
+              {{ 'logo' | placeholder_svg_tag: 'placeholder-svg' }}
+            {% endif %}
+            {% if block.settings.link != blank %}
+              </a>
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
 </div>
+
 
 {% if section.settings.divider %}</div>{% endif %}
 
