@@ -682,7 +682,7 @@
         "type": "bg-featured-collection",
         "settings": {
           "title": "E-Books",
-          "customColor": "#e6e6e6",
+          "customColor": "#f8f8f8",
           "home_featured_products": "e-books",
           "per_row": 4,
           "rows": 1,
