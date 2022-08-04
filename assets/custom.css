@@ -65,6 +65,12 @@
     div#CollectionSection-1659648438f18bc36e .page-width{
         max-width: 1760px;
     }
-    
+    .grid-product__title.grid-product__title--body {
+        font-size: 29px;
+        max-width: 473px;
+        margin-left: auto;
+        letter-spacing: 2.1px;
+        margin-right: auto;
+    }
 
 }
