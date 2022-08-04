@@ -220,7 +220,7 @@ h1.CTA-title.font-extrabold {
         margin: auto auto auto 16%;
     }
     img.small--hide {
-        width: 92px;
+        width: 121px;
     }
     .CTA-title{
         padding-top: 25rem;
@@ -280,7 +280,7 @@ h1.CTA-title.font-extrabold {
 }
 @media(min-width: 2560px){
     img.small--hide{
-        width: 100px;
+        width: 121px;
         height: auto;
         margin-left: -9rem;
         -webkit-transform: scale(0.999);
