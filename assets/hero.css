@@ -12,10 +12,10 @@
     font-weight: 600;
     font-size: 15px;
     line-height: 24px;
-    margin-left: 148px;
+/*     margin-left: 148px; */
     background: #552473;
     color: white;
-    padding: 13px;
+    padding: 10px 60px;
 }
 .CTA-btn:hover{
     color: white;
@@ -27,7 +27,13 @@
 img.small--hide {
     width: 70px;
 }
-
+h1.CTA-title.font-extrabold {
+    text-transform: capitalize;
+}
+.z-10.h-full.flex.flex-col.space-y-4.px-5.items-center.justify-center {
+    max-width: 750px;
+    margin-left: 5%;
+}
 @media(max-width:480px){
     #hero-header {
         height: 105vh;
@@ -103,7 +109,7 @@ img.small--hide {
         font-size: 22px;
     }  
     .CTA__content {
-        max-width: 42%;
+        max-width: 57%;
         /* margin-left: 148px; */
         font-style: normal;
         font-weight: 400;
