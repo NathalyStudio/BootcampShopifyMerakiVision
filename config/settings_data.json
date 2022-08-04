@@ -596,24 +596,56 @@
           "16596429632c21f68a-0": {
             "type": "logo_image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/image_2smallSteps.png",
               "link": ""
             }
           },
           "16596429632c21f68a-1": {
             "type": "logo_image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/btc-logo-footer_2.png",
               "link": ""
             }
           },
           "16596429632c21f68a-2": {
             "type": "logo_image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/954sydney_23.png",
               "link": ""
             }
           },
           "16596429632c21f68a-3": {
             "type": "logo_image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/hellonamaste_24.png",
+              "link": ""
+            }
+          },
+          "a342c1c9-e203-4c48-be71-368d523517da": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/practicalparenting_25.png",
+              "link": ""
+            }
+          },
+          "03569492-c108-48f1-831d-5b36623e0181": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/kidsgray.png",
+              "link": ""
+            }
+          },
+          "74bb9d1e-8ebe-478d-a2e9-0e2a00e441b3": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/huffpost-logo-transparent_27.png",
+              "link": ""
+            }
+          },
+          "455a34b8-f85a-42a3-b08a-206afb1b5a11": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/2GBgrey8.png",
               "link": ""
             }
           }
@@ -622,7 +654,11 @@
           "16596429632c21f68a-0",
           "16596429632c21f68a-1",
           "16596429632c21f68a-2",
-          "16596429632c21f68a-3"
+          "16596429632c21f68a-3",
+          "a342c1c9-e203-4c48-be71-368d523517da",
+          "03569492-c108-48f1-831d-5b36623e0181",
+          "74bb9d1e-8ebe-478d-a2e9-0e2a00e441b3",
+          "455a34b8-f85a-42a3-b08a-206afb1b5a11"
         ],
         "settings": {
           "title": "Featured in",
