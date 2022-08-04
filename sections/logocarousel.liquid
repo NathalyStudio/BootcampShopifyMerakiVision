@@ -12,7 +12,7 @@
       <h2 class="section-header__title">{{ section.settings.title | escape }}</h2>
     </div>
   {% endif %}
-
+ 
  <div class="ticker-carousel">
     <div class="carousel__view">
       <ul class="carousel__items">
@@ -61,16 +61,17 @@
 
 {% if section.settings.divider %}</div>{% endif %}
 
+
 {% schema %}
   {
-    "name": "Carousel brands",
-    "max_blocks": 20,
+    "name": "Brand list",
+    "class": "index-section",
+    "max_blocks": 10,
     "settings": [
       {
         "type": "text",
         "id": "title",
-        "label": "Heading",
-       "default": "Featured In",
+        "label": "Heading"
       },
       {
         "type": "range",
@@ -79,7 +80,7 @@
         "default": 76,
         "min": 0,
         "max": 100,
-        "step": 1,
+        "step": 2,
         "unit": "%"
       },
       {
@@ -110,7 +111,7 @@
     ],
     "presets": [
       {
-        "name": "Carousel brands",
+        "name": "Logo list",
         "category": "Image",
         "blocks": [
           {
