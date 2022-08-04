@@ -41,6 +41,10 @@ a.site-nav__link.site-nav__link--icon.js-drawer-open-cart {
     padding-left: 0;
     padding-right: 0;
 }
+a.site-nav__link.site-nav__link--icon.js-search-header {
+    padding-left: 0;
+    padding-right: 5px;
+}
 
 @media(max-width:480px){
     #hero-header {
