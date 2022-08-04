@@ -5,3 +5,9 @@
 .image-wrap{
     background-color:#FBEFEE;
 }
+img.logo-bar__image.lazyautosizes.lazyloaded {
+    /* height: auto; */
+    min-height: 50px;
+/*     min-width: 58px; */
+    width: auto;
+}
