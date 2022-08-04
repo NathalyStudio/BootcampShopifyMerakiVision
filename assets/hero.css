@@ -279,22 +279,36 @@ h1.CTA-title.font-extrabold {
     }
 }
 @media(min-width: 2560px){
-    
-    
+    img.small--hide{
+        width: 100px;
+        height: auto;
+        margin-left: -9rem;
+        -webkit-transform: scale(0.999);
+        transform: scale(0.999);
+    }
+    .z-10.h-full.flex.flex-col.space-y-4.px-5.items-center.justify-center {
+        margin: auto auto auto 13%;
+    }
+    .page-width {
+        padding: 0 148px 0 0;
+    }
     .site-nav__link{
         letter-spacing: 0.01em;
     }
     .CTA__content{
+        font-size: 30px;
         max-width: 2560px;
-        width: 75%;
+        width: 69%;
     }
     .CTA-title{
         font-size: 51px;
-        padding-top: 34rem;
+        padding-top: 30rem;
         width: 70%;
     }
     .CTA-btn{
-        font-size: 30px;
+        font-size: 28px;
+        padding-top: 21px;
+        padding-bottom: 24px;
     }
     .btn-div {
         margin-top: 4rem;
