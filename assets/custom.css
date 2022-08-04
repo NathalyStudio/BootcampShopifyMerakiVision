@@ -46,6 +46,10 @@
     .logo-list h2 {
         font-size: 30px;
     }
+    .checked{
+        font-size: 25px;
+        margin: auto 3px;
+    }
 }
 @media (min-width:2560px){
    /*  page-width {
