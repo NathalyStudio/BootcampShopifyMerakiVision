@@ -621,13 +621,6 @@
               "link": ""
             }
           },
-          "bb07bdb8-c3b4-4608-a07f-89370c94e70f": {
-            "type": "logo_image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/hellonamaste_24.png",
-              "link": ""
-            }
-          },
           "a342c1c9-e203-4c48-be71-368d523517da": {
             "type": "logo_image",
             "settings": {
@@ -662,7 +655,6 @@
           "16596429632c21f68a-1",
           "16596429632c21f68a-2",
           "16596429632c21f68a-3",
-          "bb07bdb8-c3b4-4608-a07f-89370c94e70f",
           "a342c1c9-e203-4c48-be71-368d523517da",
           "03569492-c108-48f1-831d-5b36623e0181",
           "74bb9d1e-8ebe-478d-a2e9-0e2a00e441b3",
