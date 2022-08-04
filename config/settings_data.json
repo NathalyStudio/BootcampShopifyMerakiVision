@@ -672,7 +672,7 @@
           "title": "Featured collection",
           "home_featured_products": "programs",
           "per_row": 3,
-          "rows": 1,
+          "rows": 5,
           "mobile_scrollable": true,
           "view_all": false,
           "divider": false
