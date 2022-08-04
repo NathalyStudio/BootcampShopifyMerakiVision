@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .desktopWidth{
     max-width: 1148px;
     width: 100%;
@@ -25,9 +26,7 @@
     }
 }
 @media (min-width:1900px){
-    .logo-list h2 {
-        font-size: 24px;
-    }
+    
 }
 @media (min-width:2000px){
     
@@ -53,11 +52,4 @@
    /*  page-width {
         max-width: 2560px;
     } */
-    div#CollectionSection-1659648438f18bc36e h2 {
-        text-transform: capitalize;
-        font-size: 60px;
-    }
-    div#CollectionSection-1659648438f18bc36e .page-width{
-        max-width: 2560px;
-    }
 }
