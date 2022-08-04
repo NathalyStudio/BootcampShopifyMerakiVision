@@ -1,4 +1,3 @@
-{{ 'custom.css' | asset_url | stylesheet_tag }}
 {%- assign per_row = section.settings.per_row -%}
 {%- assign product_limit = per_row | times: section.settings.rows -%}
 {%- assign collection = collections[section.settings.home_featured_products] -%}
@@ -15,14 +14,14 @@
         <h2 class="section-header__title">
           {{ section.settings.title }}
         </h2>
-      <!--   {% if section.settings.view_all and section.settings.rows == 1 %}
+        {% if section.settings.view_all and section.settings.rows == 1 %}
           <a href="{{ collections[section.settings.home_featured_products].url }}" class="btn btn--secondary btn--small section-header__link">{{ 'collections.general.all_of_collection' | t }}</a>
-        {% endif %} -->
+        {% endif %}
       </div>
     </div>
   {% endif %}
 
-  <div class="page-width {% if section.settings.mobile_scrollable %}page-width--flush-small{% endif %} desktopWidth">
+  <div class="page-width {% if section.settings.mobile_scrollable %}page-width--flush-small{% endif %}">
     <div {% if section.settings.mobile_scrollable %}class="grid-overflow-wrapper"{% endif %}>
       <div class="grid grid--uniform" {% if section.settings.mobile_scrollable %}data-aos="overflow__animation"{% endif %}>
         {%- assign grid_item_width = 'small--one-half medium-up--one-third' -%}
