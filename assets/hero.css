@@ -72,6 +72,9 @@ img.small--hide {
     }
 }
 
+
+
+
 @media(min-width:1024px){
     .fixedWidthBox {
         margin-left: 5%;
@@ -86,6 +89,27 @@ img.small--hide {
         margin-left: 5%;
     }
    
+}
+@media (max-width: 1139px){
+    .CTA-title {
+        padding-top: 12rem;
+        max-width: 45%;
+        /* margin-left: 148px; */
+        line-height: 26px;
+        font-size: 22px;
+    }  
+    .CTA__content {
+        max-width: 42%;
+        /* margin-left: 148px; */
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+    }
+    #hero-header{
+        height: 85vh;
+    }
+    
 }
 @media (min-width: 1140px){
     #hero-header{
