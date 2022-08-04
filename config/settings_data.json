@@ -670,9 +670,10 @@
         "type": "featured-collection",
         "settings": {
           "title": "Featured collection",
+          "bgImage": "shopify:\/\/shop_images\/Frame_349.png",
           "home_featured_products": "programs",
           "per_row": 3,
-          "rows": 5,
+          "rows": 1,
           "mobile_scrollable": true,
           "view_all": false,
           "divider": false
