@@ -103,7 +103,6 @@ a.site-nav__link.site-nav__link--icon.small--hide {
     }
     
     #hero-header{
-        margin-top: -19.5rem;
         height: 55vh;
     }
 }
@@ -156,7 +155,6 @@ a.site-nav__link.site-nav__link--icon.small--hide {
 }
 @media(min-width: 1300px){
     #hero-header{
-        margin-top: -11rem;
         height: 71vh;
     }
     .fixedWidthBox {
@@ -187,13 +185,11 @@ a.site-nav__link.site-nav__link--icon.small--hide {
     }
     
     #hero-header{
-        margin-top: -7.5rem;
         height: 78vh;
     }
 }
 @media (min-width: 1500px){
     #hero-header{
-        margin-top: -6.5rem;
         height: 80vh;
     }
     .z-10.h-full.flex.flex-col.space-y-4.px-5.items-center.justify-center{
@@ -221,7 +217,7 @@ a.site-nav__link.site-nav__link--icon.small--hide {
         font-size: 20px;
     }
     #hero-header{
-        margin-top: -8rem;
+        margin-top: -12rem;
     }
     a.site-nav__link.site-nav__link--icon.js-drawer-open-cart {
         font-size: 20px;
@@ -238,16 +234,10 @@ a.site-nav__link.site-nav__link--icon.small--hide {
     .z-10.h-full.flex.flex-col.space-y-4.px-5.items-center.justify-center{
         margin: auto auto auto 14%;
     }
-    #hero-header {
-        margin-top: -8.5rem;
-    }
 }
 @media(min-width:1900px){
     .z-10.h-full.flex.flex-col.space-y-4.px-5.items-center.justify-center{
         margin: auto auto auto 15%;
-    }
-    #hero-header {
-        margin-top: -9.5rem;
     }
 }
 @media(min-width:2000px){
@@ -281,7 +271,7 @@ a.site-nav__link.site-nav__link--icon.small--hide {
         margin-top: 3rem;
     }
     #hero-header{
-        margin-top: -16.5rem;
+        margin-top: -14rem;
     }
     a.site-nav__link.site-nav__link--icon.js-drawer-open-cart {
         font-size: 23px;
@@ -308,7 +298,7 @@ a.site-nav__link.site-nav__link--icon.small--hide {
         margin-left: -15%;
     }
     #hero-header {
-        margin-top: -22rem;
+        margin-top: -14rem;
         height: 75vh;
     }
 }
@@ -326,17 +316,10 @@ a.site-nav__link.site-nav__link--icon.small--hide {
         font-size: 27px;
     }
 }
-@media(min-width:2400px){
-    .hero-header {
-        margin-top: -23.5rem;
-    }
-}
+
 @media(min-width:2500px){
     .page-width {
         padding: 0 148px 0 80px;
-    }
-    .hero-header {
-        margin-top: -24.5rem;
     }
 }
 @media(min-width: 2560px){
@@ -375,7 +358,7 @@ a.site-nav__link.site-nav__link--icon.small--hide {
         margin-top: 4rem;
     }
     #hero-header {
-        margin-top: -25.5rem;
+        margin-top: -18rem;
         height: 75vh;
     }
     a.site-nav__link.site-nav__link--icon.js-drawer-open-cart {
