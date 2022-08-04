@@ -590,59 +590,59 @@
           "divider": false
         }
       },
-      "16596429632c21f68a": {
-        "type": "brand-list",
+      "16596436592d19b4a5": {
+        "type": "logo-list",
         "blocks": {
-          "16596429632c21f68a-0": {
+          "16596436592d19b4a5-0": {
             "type": "logo_image",
             "settings": {
               "image": "shopify:\/\/shop_images\/image_2smallSteps.png",
               "link": ""
             }
           },
-          "16596429632c21f68a-1": {
+          "16596436592d19b4a5-1": {
             "type": "logo_image",
             "settings": {
               "image": "shopify:\/\/shop_images\/btc-logo-footer_2.png",
               "link": ""
             }
           },
-          "16596429632c21f68a-2": {
+          "16596436592d19b4a5-2": {
             "type": "logo_image",
             "settings": {
               "image": "shopify:\/\/shop_images\/954sydney_23.png",
               "link": ""
             }
           },
-          "16596429632c21f68a-3": {
+          "16596436592d19b4a5-3": {
             "type": "logo_image",
             "settings": {
               "image": "shopify:\/\/shop_images\/hellonamaste_24.png",
               "link": ""
             }
           },
-          "a342c1c9-e203-4c48-be71-368d523517da": {
+          "c9848a81-6aad-4cd8-a1a0-c2a236a5b958": {
             "type": "logo_image",
             "settings": {
               "image": "shopify:\/\/shop_images\/practicalparenting_25.png",
               "link": ""
             }
           },
-          "03569492-c108-48f1-831d-5b36623e0181": {
+          "df52b96f-a56c-4dfb-a6ae-95d8f64db95d": {
             "type": "logo_image",
             "settings": {
               "image": "shopify:\/\/shop_images\/kidsgray.png",
               "link": ""
             }
           },
-          "74bb9d1e-8ebe-478d-a2e9-0e2a00e441b3": {
+          "ac07e27b-7593-4260-8f7c-832e2bbf0adb": {
             "type": "logo_image",
             "settings": {
               "image": "shopify:\/\/shop_images\/huffpost-logo-transparent_27.png",
               "link": ""
             }
           },
-          "455a34b8-f85a-42a3-b08a-206afb1b5a11": {
+          "363efd1d-871b-4685-b906-98b866305817": {
             "type": "logo_image",
             "settings": {
               "image": "shopify:\/\/shop_images\/2GBgrey8.png",
@@ -651,18 +651,18 @@
           }
         },
         "block_order": [
-          "16596429632c21f68a-0",
-          "16596429632c21f68a-1",
-          "16596429632c21f68a-2",
-          "16596429632c21f68a-3",
-          "a342c1c9-e203-4c48-be71-368d523517da",
-          "03569492-c108-48f1-831d-5b36623e0181",
-          "74bb9d1e-8ebe-478d-a2e9-0e2a00e441b3",
-          "455a34b8-f85a-42a3-b08a-206afb1b5a11"
+          "16596436592d19b4a5-0",
+          "16596436592d19b4a5-1",
+          "16596436592d19b4a5-2",
+          "16596436592d19b4a5-3",
+          "c9848a81-6aad-4cd8-a1a0-c2a236a5b958",
+          "df52b96f-a56c-4dfb-a6ae-95d8f64db95d",
+          "ac07e27b-7593-4260-8f7c-832e2bbf0adb",
+          "363efd1d-871b-4685-b906-98b866305817"
         ],
         "settings": {
           "title": "Featured in",
-          "logo_opacity": 76,
+          "logo_opacity": 100,
           "divider": false
         }
       }
@@ -670,7 +670,7 @@
     "content_for_index": [
       "16586969045d1bea72",
       "1659163211fdb4141f",
-      "16596429632c21f68a"
+      "16596436592d19b4a5"
     ]
   },
   "presets": {
