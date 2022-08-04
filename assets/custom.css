@@ -17,7 +17,7 @@
     .logo-list h2 {
         font-size: 20px;
     }
-    
+
 }
 @media (min-width:1800px){
     page-width {
@@ -25,7 +25,9 @@
     }
 }
 @media (min-width:1900px){
-    
+    .logo-list h2 {
+        font-size: 24px;
+    }
 }
 @media (min-width:2000px){
     
