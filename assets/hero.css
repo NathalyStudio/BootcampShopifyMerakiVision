@@ -120,15 +120,13 @@ h1.CTA-title.font-extrabold {
         height: 62vh;
     }
     .CTA-title {
-        padding-top: 17rem;
+        padding-top: 11rem;
         max-width: 630px;
-        margin-left: 148px;
         line-height: 46.96px;
         font-size: 40px;
     }   
     .CTA__content {
         max-width: 466px;
-        margin-left: 148px;
         font-style: normal;
         font-weight: 400;
         font-size: 18px;
@@ -146,8 +144,8 @@ h1.CTA-title.font-extrabold {
     .fixedWidthBox {
         margin-left: -5%;
     }
-    .CTA-btn{
-        margin-left: 6.5%;
+    .CTA-title{
+        padding-top: 14rem;
     }
 }
 @media(min-width:1440px){
@@ -164,16 +162,10 @@ h1.CTA-title.font-extrabold {
     .page-width{
         padding: 0 148px;
     }
-    .CTA-title, 
-    .CTA__content{
-        margin-left: 36px;
-    }
     .fixedWidthBox {
         margin-left: 11%;
     }
-    .CTA-btn {
-        margin-left: 14%;
-    }
+    
     #hero-header{
         height: 78vh;
     }
