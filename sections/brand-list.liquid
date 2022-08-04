@@ -1,3 +1,5 @@
+{{ 'brand-list.css' | asset_url | stylesheet_tag }}
+
 {% style %}
 .logo-bar--{{ section.id }} {
   opacity: {{ section.settings.logo_opacity | divided_by: 100.0 }};
