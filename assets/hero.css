@@ -219,6 +219,15 @@ a.site-nav__link.site-nav__link--icon.small--hide {
     #hero-header{
         margin-top: -12rem;
     }
+    a.site-nav__link.site-nav__link--icon.js-drawer-open-cart {
+        font-size: 20px;
+    }
+    a.site-nav__link.site-nav__link--icon.js-search-header {
+        font-size: 20px;
+    }
+    a.site-nav__link.site-nav__link--icon.small--hide {
+        font-size: 20px;
+    }
 
 }
 @media(min-width:1800px){
