@@ -216,29 +216,31 @@ h1.CTA-title.font-extrabold {
     }
 }
 @media(min-width:2000px){
-   
+    .z-10.h-full.flex.flex-col.space-y-4.px-5.items-center.justify-center{
+        margin: auto auto auto 16%;
+    }
     img.small--hide {
         width: 92px;
     }
     .CTA-title{
         padding-top: 25rem;
-        line-height: 71.96px;
+        line-height: 51.96px;
         width: 1126px;
         max-width: 2000px;
-        font-size: 48px;
-        width: 68%;
-        font-weight: 600;
+        font-size: 40px;
+        width: 57%;
+        font-weight: 500;
     }
     .CTA__content{
-        max-width: 764px;
-        font-size: 30px;
+        max-width: 640px;
+        font-size: 24px;
         line-height: 150%;
     }
     .fixedWidthBox {
         margin-left: 0%;
     }
     .CTA-btn{
-        font-size: 28px;
+        font-size: 22px;
     }
     .btn-div {
         margin-top: 3rem;
@@ -248,29 +250,41 @@ h1.CTA-title.font-extrabold {
     }
 }
 @media(min-width:2100px){
-    
+    .z-10.h-full.flex.flex-col.space-y-4.px-5.items-center.justify-center{
+        margin: auto auto auto 19%;
+    }
 }
 
 @media(min-width:2200px){
-    .CTA-title, .CTA__content {
-        margin-left: 365px;
+    .z-10.h-full.flex.flex-col.space-y-4.px-5.items-center.justify-center{
+        margin: auto auto auto 20%;
     }
     .fixedWidthBox {
         margin-left: -15%;
-    }
-    .CTA-btn{
-        margin-left: 16%;
     }
     #hero-header {
         margin-top: -14rem;
         height: 75vh;
     }
 }
+@media(min-width:2300px){
+    .z-10.h-full.flex.flex-col.space-y-4.px-5.items-center.justify-center{
+        margin: auto auto auto 21%;
+    }
+}
+@media(min-width:2300px){
+    .z-10.h-full.flex.flex-col.space-y-4.px-5.items-center.justify-center{
+        margin: auto auto auto 24%;
+    }
+}
+@media(min-width:2500px){
+    .CTA-title{
+        width: 56%;
+    }
+}
 @media(min-width: 2560px){
     
-    .CTA-title, .CTA__content {
-        margin-left: 550px;
-    }
+    
     .site-nav__link{
         letter-spacing: 0.01em;
     }
@@ -279,10 +293,11 @@ h1.CTA-title.font-extrabold {
         width: 75%;
     }
     .CTA-title{
+        font-size: 51px;
         padding-top: 34rem;
+        width: 70%;
     }
     .CTA-btn{
-        margin-left: 31.5%;
         font-size: 30px;
     }
     .btn-div {
