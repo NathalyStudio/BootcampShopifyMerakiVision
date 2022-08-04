@@ -677,12 +677,26 @@
           "view_all": false,
           "divider": false
         }
+      },
+      "1659654021f84a2341": {
+        "type": "bg-featured-collection",
+        "settings": {
+          "title": "E-Books",
+          "customColor": "#e6e6e6",
+          "home_featured_products": "e-books",
+          "per_row": 4,
+          "rows": 1,
+          "mobile_scrollable": true,
+          "view_all": false,
+          "divider": false
+        }
       }
     },
     "content_for_index": [
       "16586969045d1bea72",
       "16596436592d19b4a5",
       "1659648438f18bc36e",
+      "1659654021f84a2341",
       "1659163211fdb4141f"
     ]
   },
