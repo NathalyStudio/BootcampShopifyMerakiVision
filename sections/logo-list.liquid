@@ -1,4 +1,3 @@
-{{ 'featuredLogoBrands.css' | asset_url | stylesheet_tag }}
 {% style %}
 .logo-bar--{{ section.id }} {
   opacity: {{ section.settings.logo_opacity | divided_by: 100.0 }};
@@ -10,12 +9,12 @@
 <div class="page-width" data-aos="logo__animation">
   {% if section.settings.title != blank %}
     <div class="section-header">
-      <h2 class="sectionTitle">{{ section.settings.title | escape }}</h2>
+      <h2 class="section-header__title">{{ section.settings.title | escape }}</h2>
     </div>
   {% endif %}
 
   {% if section.blocks.size > 0 %}
-    <div class="logo-bar logo-bar--{{ section.id }} logoContainer">
+    <div class="logo-bar logo-bar--{{ section.id }}">
       {% for block in section.blocks %}
         <div class="logo-bar__item" {{ block.shopify_attributes }}>
           {% if block.settings.link != blank %}
@@ -23,7 +22,7 @@
           {% endif %}
           {% if block.settings.image != blank %}
             {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
-            <img class="logo-bar__image lazyload itemImageContainer"
+            <img class="logo-bar__image lazyload"
                 data-src="{{ img_url }}"
                 data-widths="[180, 360, 540, 720]"
                 data-aspectratio="{{ block.settings.image.aspect_ratio }}"

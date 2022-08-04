@@ -23,108 +23,80 @@
   {% endif %}
 
   <div class="page-width {% if section.settings.mobile_scrollable %}page-width--flush-small{% endif %} desktopWidth">
-    <div id="wrapper">
-      <div id="carousel">
-        <div id="content">
-          <div {% if section.settings.mobile_scrollable %}class="grid-overflow-wrapper"{% endif %}>
-            <div class="grid grid--uniform item" {% if section.settings.mobile_scrollable %}data-aos="overflow__animation"{% endif %}>
-              {%- assign grid_item_width = 'small--one-half medium-up--one-third' -%}
-      
-              {% case per_row %}
-              {% when 1 %}
-                {%- assign grid_item_width = '' -%}
-              {% when 2 %}
-                {%- assign grid_item_width = 'medium-up--one-half' -%}
-              {% when 3 %}
-                {%- assign grid_item_width = 'small--one-half medium-up--one-third' -%}
-              {% when 4 %}
-                {%- assign grid_item_width = 'small--one-half medium-up--one-quarter' -%}
-              {% when 5 %}
-                {%- assign grid_item_width = 'small--one-half medium-up--one-fifth' -%}
-              {% endcase %}
-      
-              {% if section.settings.home_featured_products == blank or collections[section.settings.home_featured_products].empty? or collections[section.settings.home_featured_products].products_count == 0 %}
-      
-                {% unless emptyState %}
-                  {%- assign emptyState = true -%}
-                {% endunless %}
-      
-                <div class="grid__item">
-                  <div class="grid grid--uniform">
-                    {% for i in (1..product_limit) %}
-                      <div class="grid__item grid-product {{ grid_item_width }}" data-aos="row-of-{{ per_row }}">
-                        <div class="grid-product__content">
-                          <a href="{{ product.url | within: collection }}" class="grid-product__link {% if sold_out %} grid-product__link--disabled{% endif %}">
-                            <div class="grid-product__image-mask">
-                              {% capture current %}{% cycle 1, 2, 3, 4, 5, 6 %}{% endcapture %}
-                              <div class="image-wrap" style="background-color:{{section.settings.color_accent2}}">
-                                {{ 'product-' | append: current | placeholder_svg_tag: 'placeholder-svg' }}</div>
-                            </div>
-                            <div class="grid-product__meta">
-                              <div class="grid-product__title">{{ 'home_page.onboarding.product_title' | t }}</div>
-                              <div class="grid-product__price">$29</div>
-                            </div>
-                          </a>
-                        </div>
+    <div {% if section.settings.mobile_scrollable %}class="grid-overflow-wrapper"{% endif %}>
+      <div class="grid grid--uniform" {% if section.settings.mobile_scrollable %}data-aos="overflow__animation"{% endif %}>
+        {%- assign grid_item_width = 'small--one-half medium-up--one-third' -%}
+
+        {% case per_row %}
+        {% when 1 %}
+          {%- assign grid_item_width = '' -%}
+        {% when 2 %}
+          {%- assign grid_item_width = 'medium-up--one-half' -%}
+        {% when 3 %}
+          {%- assign grid_item_width = 'small--one-half medium-up--one-third' -%}
+        {% when 4 %}
+          {%- assign grid_item_width = 'small--one-half medium-up--one-quarter' -%}
+        {% when 5 %}
+          {%- assign grid_item_width = 'small--one-half medium-up--one-fifth' -%}
+        {% endcase %}
+
+        {% if section.settings.home_featured_products == blank or collections[section.settings.home_featured_products].empty? or collections[section.settings.home_featured_products].products_count == 0 %}
+
+          {% unless emptyState %}
+            {%- assign emptyState = true -%}
+          {% endunless %}
+
+          <div class="grid__item">
+            <div class="grid grid--uniform">
+              {% for i in (1..product_limit) %}
+                <div class="grid__item grid-product {{ grid_item_width }}" data-aos="row-of-{{ per_row }}">
+                  <div class="grid-product__content">
+                    <a href="{{ product.url | within: collection }}" class="grid-product__link {% if sold_out %} grid-product__link--disabled{% endif %}">
+                      <div class="grid-product__image-mask">
+                        {% capture current %}{% cycle 1, 2, 3, 4, 5, 6 %}{% endcapture %}
+                        <div class="image-wrap" style="background-color:{{section.settings.color_accent2}}">
+                          {{ 'product-' | append: current | placeholder_svg_tag: 'placeholder-svg' }}</div>
                       </div>
-                    {% endfor %}
+                      <div class="grid-product__meta">
+                        <div class="grid-product__title">{{ 'home_page.onboarding.product_title' | t }}</div>
+                        <div class="grid-product__price">$29</div>
+                      </div>
+                    </a>
                   </div>
                 </div>
-      
-              {% else %}
-      
-                {% for product in collections[section.settings.home_featured_products].products limit: product_limit %}
-                  {% render 'product-grid-item'
-                    product: product,
-                    grid_item_width: grid_item_width
-                  %}
-                {% endfor %}
-      
-                {% if section.settings.view_all %}
-      
-                  {% if section.settings.rows > 1 %}
-                    <div class="grid__item text-center {% if section.settings.mobile_scrollable %}small--hide{% endif %}">
-                      <a href="{{ collections[section.settings.home_featured_products].url }}" class="btn">{{ 'collections.general.all_of_collection' | t }}</a>
-                    </div>
-                  {% endif %}
-      
-                  {% if section.settings.mobile_scrollable %}
-                    <div class="grid__item grid__item--view-all text-center {{ grid_item_width }} medium-up--hide">
-                      <a href="{{ collections[section.settings.home_featured_products].url }}" class="grid-product__see-all">
-                        {{ 'collections.general.view_all_products_html' | t: count: collection.products_count }}
-                      </a>
-                    </div>
-                  {% endif %}
-      
-                {% endif %}
-      
-              {% endif %}
+              {% endfor %}
             </div>
           </div>
-        </div>
+
+        {% else %}
+
+          {% for product in collections[section.settings.home_featured_products].products limit: product_limit %}
+            {% render 'product-grid-item'
+              product: product,
+              grid_item_width: grid_item_width
+            %}
+          {% endfor %}
+
+          {% if section.settings.view_all %}
+
+            {% if section.settings.rows > 1 %}
+              <div class="grid__item text-center {% if section.settings.mobile_scrollable %}small--hide{% endif %}">
+                <a href="{{ collections[section.settings.home_featured_products].url }}" class="btn">{{ 'collections.general.all_of_collection' | t }}</a>
+              </div>
+            {% endif %}
+
+            {% if section.settings.mobile_scrollable %}
+              <div class="grid__item grid__item--view-all text-center {{ grid_item_width }} medium-up--hide">
+                <a href="{{ collections[section.settings.home_featured_products].url }}" class="grid-product__see-all">
+                  {{ 'collections.general.view_all_products_html' | t: count: collection.products_count }}
+                </a>
+              </div>
+            {% endif %}
+
+          {% endif %}
+
+        {% endif %}
       </div>
-      <button id="prev">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-        >
-          <path fill="none" d="M0 0h24v24H0V0z" />
-          <path d="M15.61 7.41L14.2 6l-6 6 6 6 1.41-1.41L11.03 12l4.58-4.59z" />
-        </svg>
-      </button>
-      <button id="next">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-        >
-          <path fill="none" d="M0 0h24v24H0V0z" />
-          <path d="M10.02 6L8.61 7.41 13.19 12l-4.58 4.59L10.02 18l6-6-6-6z" />
-        </svg>
-      </button>
     </div>
   </div>
 </div>
@@ -137,36 +109,7 @@
 
 {% if section.settings.divider %}</div>{% endif %}
 
-<script>
-  const gap = 16;
 
-const carousel = document.getElementById("carousel"),
-  content = document.getElementById("content"),
-  next = document.getElementById("next"),
-  prev = document.getElementById("prev");
-
-next.addEventListener("click", e => {
-  carousel.scrollBy(width + gap, 0);
-  if (carousel.scrollWidth !== 0) {
-    prev.style.display = "flex";
-  }
-  if (content.scrollWidth - width - gap <= carousel.scrollLeft + width) {
-    next.style.display = "none";
-  }
-});
-prev.addEventListener("click", e => {
-  carousel.scrollBy(-(width + gap), 0);
-  if (carousel.scrollLeft - width - gap <= 0) {
-    prev.style.display = "none";
-  }
-  if (!content.scrollWidth - width - gap <= carousel.scrollLeft + width) {
-    next.style.display = "flex";
-  }
-});
-
-let width = carousel.offsetWidth;
-window.addEventListener("resize", e => (width = carousel.offsetWidth));
-</script>
 {% schema %}
   {
     "name": "Featured collection w/BG",

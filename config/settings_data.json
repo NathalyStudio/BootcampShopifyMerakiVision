@@ -731,6 +731,28 @@
           "blog_image_size": "wide",
           "divider": false
         }
+      },
+      "16595482934f0a5605": {
+        "type": "testCarousel",
+        "blocks": {
+          "16595482934f0a5605-0": {
+            "type": "slide",
+            "settings": {
+            }
+          },
+          "16595482934f0a5605-1": {
+            "type": "slide",
+            "settings": {
+            }
+          }
+        },
+        "block_order": [
+          "16595482934f0a5605-0",
+          "16595482934f0a5605-1"
+        ],
+        "settings": {
+          "title": "Carousel"
+        }
       }
     },
     "content_for_index": [
@@ -740,7 +762,8 @@
       "1658902223d07a02f1",
       "165916080932c1d343",
       "165916298292a43a68",
-      "1659163211fdb4141f"
+      "1659163211fdb4141f",
+      "16595482934f0a5605"
     ]
   },
   "presets": {
