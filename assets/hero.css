@@ -220,16 +220,13 @@ h1.CTA-title.font-extrabold {
     img.small--hide {
         width: 92px;
     }
-    .CTA-title, .CTA__content {
-        margin-left: 265px;
-    }
     .CTA-title{
         padding-top: 25rem;
         line-height: 71.96px;
         width: 1126px;
         max-width: 2000px;
-        font-size: 56px;
-        width: 88%;
+        font-size: 48px;
+        width: 68%;
         font-weight: 600;
     }
     .CTA__content{
@@ -250,6 +247,10 @@ h1.CTA-title.font-extrabold {
         margin-top: -14rem;
     }
 }
+@media(min-width:2100px){
+    
+}
+
 @media(min-width:2200px){
     .CTA-title, .CTA__content {
         margin-left: 365px;
