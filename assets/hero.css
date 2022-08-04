@@ -48,6 +48,7 @@ a.site-nav__link.site-nav__link--icon.js-search-header {
 a.site-nav__link.site-nav__link--icon.small--hide {
     padding-left: 6px;
     padding-right: 1rem;
+    letter-spacing: 0;
 }
 @media(max-width:480px){
     #hero-header {
