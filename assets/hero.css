@@ -176,17 +176,29 @@ h1.CTA-title.font-extrabold {
     #hero-header{
         height: 80vh;
     }
+    .z-10.h-full.flex.flex-col.space-y-4.px-5.items-center.justify-center{
+        margin: auto auto auto 10%;
+    }
+
 }
 @media(min-width:1700px){
     .CTA-title, 
     .CTA__content{
-        margin-left: 136px;
+        margin-left: 6%;
     }
     .CTA-title{
-        padding-top: 22rem;
+        padding-top: 21rem;
+        padding-bottom: 1rem;
+    }
+    .CTA__content{
+        font-weight: 500;
+        font-size: 19px;
+        padding-bottom: 1rem;
     }
     .CTA-btn {
-        margin-left: 22.5%;
+        margin-left: 6%;
+        font-weight: 400;
+        font-size: 20px;
     }
     #hero-header{
         margin-top: -12rem;
