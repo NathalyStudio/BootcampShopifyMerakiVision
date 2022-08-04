@@ -37,6 +37,11 @@ h1.CTA-title.font-extrabold {
 .site-nav__link{
     text-transform: capitalize;
 }
+a.site-nav__link.site-nav__link--icon.js-drawer-open-cart {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 @media(max-width:480px){
     #hero-header {
         height: 105vh;
