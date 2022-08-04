@@ -8,7 +8,7 @@
   id="CollectionSection-{{ section.id }}"
   data-section-id="{{ section.id }}"
   data-section-type="collection-template"
-  style="background-image: url(https://cdn.shopify.com/s/files/1/0549/0589/7031/files/Frame_349_256x256_crop_center.png?v=1659160935); background-repeat: no-repeat;     background-position: left bottom;">
+  style="background-image: url({{section.settings.bgImage | asset_img_url: 'original'}}); background-repeat: no-repeat;">
   {% if section.settings.title != blank %}
     <div class="page-width">
       <div class="section-header{% if section.settings.view_all %}{% unless settings.type_headers_align_text %} section-header--with-link{% endunless %}{% endif %}">
