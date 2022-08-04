@@ -72,5 +72,9 @@
         letter-spacing: 2.1px;
         margin-right: auto;
     }
+    .grid-product__price {
+        font-size: 28px;
+        font-weight: 700;
+    }
 
 }
