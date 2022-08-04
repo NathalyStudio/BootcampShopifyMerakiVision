@@ -14,9 +14,6 @@
     }
 }
 @media (min-width:1700px){
-    .logo-list h2 {
-        font-size: 20px;
-    }
 
 }
 @media (min-width:1800px){
@@ -43,9 +40,7 @@
     
 }
 @media (min-width:2500px){
-    .logo-list h2 {
-        font-size: 30px;
-    }
+    
     .checked{
         font-size: 25px;
         margin: auto 3px;
