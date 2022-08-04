@@ -7,7 +7,8 @@
 <div
   id="CollectionSection-{{ section.id }}"
   data-section-id="{{ section.id }}"
-  data-section-type="collection-template">
+  data-section-type="collection-template"
+  style="background-image: {{section.settings.bgImage}};">
   {% if section.settings.title != blank %}
     <div class="page-width">
       <div class="section-header{% if section.settings.view_all %}{% unless settings.type_headers_align_text %} section-header--with-link{% endunless %}{% endif %}">
@@ -118,6 +119,11 @@
         "id": "title",
         "label": "Heading",
         "default": "Featured collection"
+      },
+      {
+        "type": "image_picker",
+        "id": "bgImage",
+        "label": "Background Image."
       },
       {
         "type": "collection",
