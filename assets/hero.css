@@ -191,6 +191,10 @@ img.small--hide {
     .CTA-btn {
         margin-left: 22.5%;
     }
+    #hero-header{
+        margin-top: -12rem;
+    }
+
 }
 @media(min-width:2000px){
     a.site-nav__link.site-nav__link--underline {
@@ -226,6 +230,9 @@ img.small--hide {
     .btn-div {
         margin-top: 3rem;
     }
+    #hero-header{
+        margin-top: -14rem;
+    }
 }
 @media(min-width:2200px){
     .CTA-title, .CTA__content {
@@ -236,6 +243,10 @@ img.small--hide {
     }
     .CTA-btn{
         margin-left: 16%;
+    }
+    #hero-header {
+        margin-top: -14rem;
+        height: 75vh;
     }
 }
 @media(min-width: 2560px){
@@ -261,5 +272,9 @@ img.small--hide {
     }
     .btn-div {
         margin-top: 4rem;
+    }
+    #hero-header {
+        margin-top: -18rem;
+        height: 75vh;
     }
 }
