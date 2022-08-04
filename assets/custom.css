@@ -14,7 +14,10 @@
     }
 }
 @media (min-width:1700px){
-    
+    .logo-list h2 {
+        font-size: 20px;
+    }
+
 }
 @media (min-width:1800px){
     page-width {
@@ -22,7 +25,9 @@
     }
 }
 @media (min-width:1900px){
-    
+    .logo-list h2 {
+        font-size: 24px;
+    }
 }
 @media (min-width:2000px){
     
@@ -40,10 +45,19 @@
     
 }
 @media (min-width:2500px){
-    
+    .logo-list h2 {
+        font-size: 30px;
+    }
 }
 @media (min-width:2560px){
    /*  page-width {
         max-width: 2560px;
     } */
+    div#CollectionSection-1659648438f18bc36e h2 {
+        text-transform: capitalize;
+        font-size: 60px;
+    }
+    div#CollectionSection-1659648438f18bc36e .page-width{
+        max-width: 2560px;
+    }
 }
