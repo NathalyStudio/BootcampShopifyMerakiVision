@@ -1,5 +1,5 @@
-section {
-/*     height: 100vh; */
+.ticker-carousel {
+    height: auto;
     display: grid;
     place-items: center;
 }
