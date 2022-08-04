@@ -34,6 +34,21 @@ h1.CTA-title.font-extrabold {
     max-width: 750px;
     margin-left: 5%;
 }
+.site-nav__link{
+    text-transform: capitalize;
+}
+a.site-nav__link.site-nav__link--icon.js-drawer-open-cart {
+    padding-left: 0;
+    padding-right: 0;
+}
+a.site-nav__link.site-nav__link--icon.js-search-header {
+    padding-left: 0;
+    padding-right: 5px;
+}
+a.site-nav__link.site-nav__link--icon.small--hide {
+    padding-left: 6px;
+    padding-right: 1rem;
+}
 @media(max-width:480px){
     #hero-header {
         height: 105vh;
