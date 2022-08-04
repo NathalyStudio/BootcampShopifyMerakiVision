@@ -205,6 +205,16 @@ h1.CTA-title.font-extrabold {
     }
 
 }
+@media(min-width:1800px){
+    .z-10.h-full.flex.flex-col.space-y-4.px-5.items-center.justify-center{
+        margin: auto auto auto 14%;
+    }
+}
+@media(min-width:1900px){
+    .z-10.h-full.flex.flex-col.space-y-4.px-5.items-center.justify-center{
+        margin: auto auto auto 15%;
+    }
+}
 @media(min-width:2000px){
    
     img.small--hide {
