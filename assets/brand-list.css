@@ -3,7 +3,9 @@
     display: grid;
     place-items: center;
 }
-
+ul.carousel__items {
+    list-style: none;
+}
 .slider {
 width: 100%;
 max-width: 800px;
