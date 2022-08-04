@@ -34,7 +34,7 @@ img.logo-bar__image.itemImageContainer.lazyautosizes.lazyloaded {
         margin-top: 100px;
     }
     .logoContainer{
-       /*  max-width: 1178px; */
+        max-width: 1178px;
         margin-left: auto;
         margin-right: auto;
     }
