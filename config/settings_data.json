@@ -589,88 +589,11 @@
           "blog_image_size": "wide",
           "divider": false
         }
-      },
-      "1659641735a61b6750": {
-        "type": "brand-list",
-        "blocks": {
-          "1659641735a61b6750-0": {
-            "type": "logo_image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/image_2smallSteps.png",
-              "link": ""
-            }
-          },
-          "1659641735a61b6750-1": {
-            "type": "logo_image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/btc-logo-footer_2.png",
-              "link": ""
-            }
-          },
-          "1659641735a61b6750-2": {
-            "type": "logo_image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/954sydney_23.png",
-              "link": ""
-            }
-          },
-          "1659641735a61b6750-3": {
-            "type": "logo_image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/hellonamaste_24.png",
-              "link": ""
-            }
-          },
-          "1a6a8c6e-5ec6-41d3-98f9-3aba8f3ac670": {
-            "type": "logo_image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/practicalparenting_25.png",
-              "link": ""
-            }
-          },
-          "3d9ecf0a-7bd3-4e9e-981b-7fb77160599b": {
-            "type": "logo_image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/kidsgray.png",
-              "link": ""
-            }
-          },
-          "6904115a-9922-441a-9df2-1c3727725720": {
-            "type": "logo_image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/huffpost-logo-transparent_27.png",
-              "link": ""
-            }
-          },
-          "c3261a42-9bef-47b4-b450-4af3408dff6f": {
-            "type": "logo_image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/2GBgrey8.png",
-              "link": ""
-            }
-          }
-        },
-        "block_order": [
-          "1659641735a61b6750-0",
-          "1659641735a61b6750-1",
-          "1659641735a61b6750-2",
-          "1659641735a61b6750-3",
-          "1a6a8c6e-5ec6-41d3-98f9-3aba8f3ac670",
-          "3d9ecf0a-7bd3-4e9e-981b-7fb77160599b",
-          "6904115a-9922-441a-9df2-1c3727725720",
-          "c3261a42-9bef-47b4-b450-4af3408dff6f"
-        ],
-        "settings": {
-          "title": "Featured in",
-          "logo_opacity": 76,
-          "divider": false
-        }
       }
     },
     "content_for_index": [
       "16586969045d1bea72",
-      "1659163211fdb4141f",
-      "1659641735a61b6750"
+      "1659163211fdb4141f"
     ]
   },
   "presets": {
