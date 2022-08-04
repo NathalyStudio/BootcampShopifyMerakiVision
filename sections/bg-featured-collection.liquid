@@ -1,3 +1,24 @@
+<style>
+    div#CollectionSection-1659654021f84a2341 h2 {
+        padding-top: 8rem;
+        text-transform: capitalize;
+        padding-bottom: 2rem;
+    }
+    div#CollectionSection-1659654021f84a2341 .grid-overflow-wrapper {
+        padding-bottom: 6rem;
+    }
+    @media (min-width:2500px){
+        div#CollectionSection-1659654021f84a2341 .page-width {
+            max-width: 1760px;
+        }
+        div#CollectionSection-1659654021f84a2341 h2{
+            font-size: 60px;
+            font-weight: 700;
+        }
+        
+    }
+</style>
+
 {%- assign per_row = section.settings.per_row -%}
 {%- assign product_limit = per_row | times: section.settings.rows -%}
 {%- assign collection = collections[section.settings.home_featured_products] -%}
