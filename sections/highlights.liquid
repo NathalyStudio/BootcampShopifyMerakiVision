@@ -1,0 +1,41 @@
+<section class="highlights">
+    {% if section.settings.title != blank %}
+      <div class="section-header">
+        <h2 class="section-header__title">{{ section.settings.title | escape }}</h2>
+      </div>
+    {% endif %}
+    <!-- This is for block image section -->
+    <div class="flex--highlights">
+        {% if section.blocks.size > 0 %}
+        <div class="highlights--{{ section.id }}">
+          {% for block in section.blocks %}
+          <!-- The first we ask for are the links if  -->
+            <div class="logo-bar__item" {{ block.shopify_attributes }}>
+                {% if block.settings.link != blank %}
+                    <a href="{{ block.settings.link }}" class="logo-bar__link">
+                {% endif %}
+
+                {% if block.settings.text != blank %}
+                    
+                {% endif %}
+
+                {% if block.settings.image != blank %}
+                    {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                    <img class="logo-bar__image lazyload"
+                        data-src="{{ img_url }}"
+                        data-widths="[180, 360, 540, 720]"
+                        data-aspectratio="{{ block.settings.image.aspect_ratio }}"
+                        data-sizes="auto"
+                        alt="{{ block.settings.image.alt }}">
+                {% else %}
+                    {{ 'logo' | placeholder_svg_tag: 'placeholder-svg' }}
+                {% endif %}
+                {% if block.settings.link != blank %}
+                    </a>
+                {% endif %}
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+</section>
