@@ -1,10 +1,10 @@
 {% if section.settings.divider %}<div class="section--divider">{% endif %}
 
-    {%- assign img_url = section.settings.bgImage | bg_img_url: '1x1' | replace: '_1x1.' -%}
+    {%- assign bg_img_url = section.settings.bgImage -%}
     <img class="lazyload image__bg"
-         data-src="{{bg_img_url}}"
+         data-src="{{ bg_img_url }}"
          data-sizes="auto">
-         
+{%endassign%}
     <div class="divBGImage-withtext">
     <div class="page-width">
         {% capture image_layout %}
