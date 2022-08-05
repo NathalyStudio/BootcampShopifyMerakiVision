@@ -2,7 +2,7 @@
 
 {% if section.settings.divider %}<div class="section--divider">{% endif %}    
     <img class="image__bg" src="{{section.settings.bgImage | img_url: 'master'  }}">
-
+    <img src="{{section.settings.bgImage2 | img_url: 'master'  }}" alt="" class="image_bg2">
     <div class="divBGImage-withtext">
     <div class="page-width">
         {% capture image_layout %}
@@ -90,6 +90,11 @@
             "type": "image_picker",
             "id": "bgImage",
             "label": "Background image"
+          },
+          {
+            "type": "image_picker",
+            "id": "bgImage2",
+            "label": "Background image 2"
           },
           {
             "type": "text",
