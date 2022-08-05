@@ -2,7 +2,7 @@
 {% if section.settings.divider %}<div class="section--divider">{% endif %}
 
     <section class="bg-image-with-text"
-    style="background-image: url({{section.settings.bgImage }});">
+    style="background-image: url({{section.settings.bgImage asset_url | img_tag: 'background-image'}});">
     <div class="page-width">
         {% capture image_layout %}
           <div class="feature-row__item">
