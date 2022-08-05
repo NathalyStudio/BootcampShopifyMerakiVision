@@ -40,3 +40,50 @@
     </div>
 </section>
 
+{% schema %}
+{
+  "name": "Highlights",
+  "class": "slideshow",
+  "max_blocks": 10,
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "placeholder": "Title",
+      "label": "Heading",
+      "default": "Heading",
+      "info": "Heading of the section"
+    },
+    {
+      "type": "checkbox",
+      "id": "divider",
+      "label": "Show section divider",
+      "default": false
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Slide",
+      "type": "slide",
+      "settings": [
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link of the highlight"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Highlighted text",
+          "default": "Highlighted text"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
