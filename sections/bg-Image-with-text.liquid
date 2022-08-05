@@ -2,7 +2,7 @@
 {% if section.settings.divider %}<div class="section--divider">{% endif %}
 
     <section class="bg-image-with-text"
-    style="background-image: url({{section.settings.bgImage | URL }});">
+    style="background-image: url({{section.settings.bgImage }});">
     <div class="page-width">
         {% capture image_layout %}
           <div class="feature-row__item">
@@ -48,6 +48,11 @@
                 {{ section.settings.button_label }}
               </a>
             {% endif %}
+            {% if section.settings.button_label2 != blank %}
+              <a href="{{ section.settings.button_link2 }}" class="btn2">
+                {{ section.settings.button_label2 }}
+              </a>
+            {% endif %}
           </div>
       
           {% if section.settings.layout == 'right' %}
@@ -69,11 +74,6 @@
             "id": "image",
             "label": "Image"
           },
-        {
-        "type": "image_picker",
-        "id": "bgImage",
-        "label": "Background image"
-        },
           {
             "type": "range",
             "id": "image_width",
@@ -83,6 +83,11 @@
             "max": 500,
             "step": 10,
             "unit": "px"
+          },
+          {
+            "type": "image_picker",
+            "id": "bgImage",
+            "label": "Background image"
           },
           {
             "type": "text",
@@ -112,6 +117,17 @@
             "type": "url",
             "id": "button_link",
             "label": "Button link"
+          },
+          {
+            "type": "text",
+            "id": "button_label2",
+            "label": "Button label 2",
+            "default": "Optional button 2"
+          },
+          {
+            "type": "url",
+            "id": "button_link2",
+            "label": "Button link 2"
           },
           {
             "type": "select",
