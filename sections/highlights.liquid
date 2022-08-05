@@ -1,6 +1,6 @@
 {{ 'highlights.css' | asset_url | stylesheet_tag }}
 
-<section class="highlights">
+<div class="highlights">
     {% if section.settings.title != blank %}
       <div class="section-header">
         <h2 class="section-header__title">{{ section.settings.title | escape }}</h2>
@@ -39,12 +39,13 @@
         </div>
       {% endif %}
     </div>
-</section>
+</div>
 
 {% schema %}
 {
   "name": "Highlights",
   "class": "slideshow",
+ "tag": "section",
   "max_blocks": 10,
   "settings": [
     {
