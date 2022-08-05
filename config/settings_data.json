@@ -742,7 +742,7 @@
         "type": "bg-Image-with-text",
         "settings": {
           "image": "shopify:\/\/shop_images\/IMG_9841_2.png",
-          "image_width": 330,
+          "image_width": 500,
           "bgImage": "shopify:\/\/shop_images\/Vector.png",
           "bgImage2": "shopify:\/\/shop_images\/Vector_1.png",
           "subtitle": "",
