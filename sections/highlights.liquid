@@ -14,11 +14,7 @@
                 {% if block.settings.link != blank %}
                     <a href="{{ block.settings.link }}" class="logo-bar__link">
                 {% endif %}
-                <!-- The next thing we ask for is the image of the high -->
-                {% if block.settings.text != blank %}
-                    
-                {% endif %}
-
+                <!-- The next thing we ask for is the image of the highlight -->
                 {% if block.settings.image != blank %}
                     {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
                     <img class="logo-bar__image lazyload"
@@ -30,6 +26,12 @@
                 {% else %}
                     {{ 'logo' | placeholder_svg_tag: 'placeholder-svg' }}
                 {% endif %}
+                
+                {% if block.settings.text != blank %}
+                    
+                {% endif %}
+
+                
                 {% if block.settings.link != blank %}
                     </a>
                 {% endif %}
