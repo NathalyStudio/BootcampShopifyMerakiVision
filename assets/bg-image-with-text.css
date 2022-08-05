@@ -47,3 +47,12 @@ section#shopify-section-1659723234a7a8590a {
     padding-left: 50px;
     padding-right: 50px;
 }
+.image_bg2{
+    position: absolute;
+    right: 29rem;
+    margin-top: -8rem;
+    width: 600px;
+}
+.imageSectionCustom{
+    position: absolute;
+}

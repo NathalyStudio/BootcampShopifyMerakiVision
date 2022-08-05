@@ -12,7 +12,7 @@
                 {% if section.settings.button_label != blank and section.settings.button_link != blank %}<a href="{{ section.settings.button_link }}">{% endif %}
                 <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: section.settings.image.aspect_ratio }}%;">
                   {%- assign img_url = section.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
-                  <img class="feature-row__image lazyload"
+                  <img class="feature-row__image lazyload imageSectionCustom"
                       data-src="{{ img_url }}"
                       data-widths="[180, 360, 540, 720, 900, 1080]"
                       data-aspectratio="{{ section.settings.image.aspect_ratio }}"
