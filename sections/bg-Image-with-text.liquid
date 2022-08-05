@@ -1,7 +1,8 @@
 
 {% if section.settings.divider %}<div class="section--divider">{% endif %}
 
-    <section class="bg-image-with-text">
+    <section class="bg-image-with-text"
+    style="background-image: url({{section.settings.bgImage | URL }});">
     <div class="page-width">
         {% capture image_layout %}
           <div class="feature-row__item">
@@ -68,6 +69,11 @@
             "id": "image",
             "label": "Image"
           },
+        {
+        "type": "image_picker",
+        "id": "bgImage",
+        "label": "Background image"
+        },
           {
             "type": "range",
             "id": "image_width",
