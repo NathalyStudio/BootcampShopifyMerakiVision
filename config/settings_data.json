@@ -715,7 +715,7 @@
             "settings": {
               "link": "",
               "image": "shopify:\/\/shop_images\/Frame_356.png",
-              "text": "<p><strong>2<\/strong> Psycological degrees<\/p>"
+              "text": "<p><strong>2<\/strong> Psycological <br\/>degrees<\/p>"
             }
           },
           "68d35f0b-7fcf-480f-b1f7-9452a50c593a": {
@@ -723,7 +723,7 @@
             "settings": {
               "link": "",
               "image": "shopify:\/\/shop_images\/Frame_357.png",
-              "text": "<p><strong>50,000+<\/strong> families helped<\/p>"
+              "text": "<p><strong>50,000+<\/strong> families<br\/> helped<\/p>"
             }
           }
         },
