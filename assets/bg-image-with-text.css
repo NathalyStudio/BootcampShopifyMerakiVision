@@ -1,0 +1,43 @@
+img.image__bg {
+    position: absolute;
+    margin-left: 16%;
+    margin-top: -6rem;
+    width: 1000px;
+}
+.divBG__text{
+    z-index: 100;
+}
+section#shopify-section-1659723234a7a8590a {
+    margin-top: 12rem;
+    margin-bottom: 16rem;
+}
+.bgimagetext__title{
+    font-size: 52px;
+    text-transform: capitalize;
+    padding-bottom: 1.5rem;
+    text-align: left;
+    padding-top: 5rem;
+}
+.bgimagetext__text{
+    font-size: 26px;
+    text-align: left;
+    width: 530px;
+    padding-bottom: 2rem;
+}
+.bgimagetext__btn1{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 0;
+    margin-left: -12rem;
+    text-transform: capitalize;
+}
+.bgimagetext__btn2{
+    text-transform: capitalize;
+    color: #4FD6C5;
+    font-size: 24px;
+    border: 1.5px solid #4FD6C5;
+    padding: 15px;
+    background-color: transparent;
+}

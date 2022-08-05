@@ -1,6 +1,6 @@
-{% if section.settings.divider %}<div class="section--divider">{% endif %}
+{{'bg-image-with-text.css' | asset_url | stylesheet_tag }}
 
-    
+{% if section.settings.divider %}<div class="section--divider">{% endif %}    
     <img class="image__bg" src="{{section.settings.bgImage | img_url: 'master'  }}">
 
     <div class="divBGImage-withtext">
@@ -34,23 +34,23 @@
             {{ image_layout }}
           {% endif %}
       
-          <div class="feature-row__item feature-row__text feature-row__text--{{ section.settings.layout }}">
+          <div class="feature-row__item feature-row__text feature-row__text--{{ section.settings.layout }} divBG__text">
             {% if section.settings.subtitle != blank %}
               <p class="h5">{{ section.settings.subtitle }}</p>
             {% endif %}
             {% if section.settings.title != blank %}
-              <p class="h3">{{ section.settings.title | escape }}</p>
+              <p class="h3 bgimagetext__title">{{ section.settings.title | escape }}</p>
             {% endif %}
             {% if section.settings.text != blank %}
-              <div class="rte featured-row__subtext">{{ section.settings.text }}</div>
+              <div class="rte featured-row__subtext bgimagetext__text">{{ section.settings.text }}</div>
             {% endif %}
             {% if section.settings.button_label != blank %}
-              <a href="{{ section.settings.button_link }}" class="btn">
+              <a href="{{ section.settings.button_link }}" class="btn bgimagetext__btn1">
                 {{ section.settings.button_label }}
               </a>
             {% endif %}
             {% if section.settings.button_label2 != blank %}
-              <a href="{{ section.settings.button_link2 }}" class="btn2">
+              <a href="{{ section.settings.button_link2 }}" class="btn bgimagetext__btn2">
                 {{ section.settings.button_label2 }}
               </a>
             {% endif %}
