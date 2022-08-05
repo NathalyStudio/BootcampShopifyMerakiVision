@@ -21,8 +21,9 @@
     text-align: center;
     font-family: 'Source Sans Pro';
     font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
+    font-size: 26px;
     line-height: 140%;
-    color: #361E45;
+    color: #361e45;
+    max-width: 350px;
+    text-transform: uppercase;
 }
