@@ -743,11 +743,14 @@
         "settings": {
           "image": "shopify:\/\/shop_images\/IMG_9841_2.png",
           "image_width": 330,
+          "bgImage": "shopify:\/\/shop_images\/Vector.png",
           "subtitle": "",
           "title": "Meet Karen Faulkner",
           "text": "<p>Lorem Ipsum is simply dummy text of the printing and. Lorem Ipsum is simply dummy text of the printing and. Lorem Ipsum is simply dummy text of the printing and. Lorem Ipsum is simply dummy text of the printing and.<\/p>",
           "button_label": "Schedule Consultation",
           "button_link": "",
+          "button_label2": "More about me",
+          "button_link2": "",
           "layout": "right",
           "divider": false
         }
