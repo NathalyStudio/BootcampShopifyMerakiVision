@@ -29,8 +29,8 @@
                 {% endif %}
                 <!-- We then ask for the text that is going to be below the image -->
                 {% if block.settings.text != blank %}
-                    <p class="heading--highlights"> {{ block.settings.text }}<p>
-                {% endif %}
+                <div class="rte background-media-text__subtext">{{ block.settings.text }}</div>
+              {% endif %}
                 {% if block.settings.link != blank %}
                     </a>
                 {% endif %}
