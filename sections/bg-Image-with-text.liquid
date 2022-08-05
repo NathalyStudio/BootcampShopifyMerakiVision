@@ -1,8 +1,11 @@
-
+<style>
+    .bg-image-with-text{
+        background-image: url({{'section.settings.bgImage' | asset_url }});
+    }
+</style>
 {% if section.settings.divider %}<div class="section--divider">{% endif %}
 
-    <section class="bg-image-with-text"
-    style="background-image: url({{'section.settings.bgImage' | asset_url }});">
+    <div class="divBGImage-withtext">
     <div class="page-width">
         {% capture image_layout %}
           <div class="feature-row__item">
@@ -61,13 +64,14 @@
         </div>
       </div>
       
-</section>
+</div>
 {% if section.settings.divider %}</div>{% endif %}
     
     {% schema %}
       {
         "name": "BG Image w/text",
-        "class": "index-section",
+        "class": "bg-image-with-text",
+       "tag": "section",
         "settings": [
           {
             "type": "image_picker",
