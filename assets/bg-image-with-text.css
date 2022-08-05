@@ -28,7 +28,7 @@ section#shopify-section-1659723234a7a8590a {
 .bgimagetext__btn1{
     font-family: 'Source Sans Pro';
     font-style: normal;
-    font-weight: 600 !important;
+    font-weight: 600;
     font-size: 24px;
     letter-spacing: 0;
     margin-left: -3rem !important;
@@ -56,7 +56,7 @@ section#shopify-section-1659723234a7a8590a {
 }
 .imageSectionCustom{
     position: absolute;
-    width: 600px;
+    width: 600px !important;
     margin-top: -4rem;
     margin-left: -6rem;
 }
