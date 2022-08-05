@@ -12,7 +12,7 @@
         <div class="highlights--{{ section.id }}">
           {% for block in section.blocks %}
           <!-- The first we ask for are the links if the user want to add a linked block to another page -->
-            <div class="logo-bar__item" {{ block.shopify_attributes }}>
+            <div class="highligh__item" {{ block.shopify_attributes }}>
                 {% if block.settings.link != blank %}
                     <a href="{{ block.settings.link }}" class="logo-bar__link">
                 {% endif %}
@@ -21,7 +21,6 @@
                     {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
                     <img class="lazyload img__Highlight"
                         data-src="{{ img_url }}"
-                        data-widths="[180, 360, 540, 720]"
                         data-aspectratio="{{ block.settings.image.aspect_ratio }}"
                         data-sizes="auto"
                         alt="{{ block.settings.image.alt }}">
