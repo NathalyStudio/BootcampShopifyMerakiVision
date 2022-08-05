@@ -321,7 +321,6 @@ a.site-nav__link.site-nav__link--icon.small--hide {
     .page-width {
         padding: 0 148px 0 80px;
     }
-    
 }
 @media(min-width: 2560px){
     img.small--hide{
@@ -335,7 +334,7 @@ a.site-nav__link.site-nav__link--icon.small--hide {
         margin: auto auto auto 13%;
     }
     .page-width {
-        padding: 0 148px 0 0;
+        padding: 0;
     }
     .site-nav__link{
         letter-spacing: 0.01em;
