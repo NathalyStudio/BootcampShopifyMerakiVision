@@ -9,12 +9,12 @@
         {% if section.blocks.size > 0 %}
         <div class="highlights--{{ section.id }}">
           {% for block in section.blocks %}
-          <!-- The first we ask for are the links if  -->
+          <!-- The first we ask for are the links if the user want to add a linked block to another page -->
             <div class="logo-bar__item" {{ block.shopify_attributes }}>
                 {% if block.settings.link != blank %}
                     <a href="{{ block.settings.link }}" class="logo-bar__link">
                 {% endif %}
-
+<!--  -->
                 {% if block.settings.text != blank %}
                     
                 {% endif %}
