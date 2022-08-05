@@ -28,10 +28,8 @@
                 {% endif %}
                 <!-- We then ask for the text that is going to be below the image -->
                 {% if block.settings.text != blank %}
-                    <h3 class="heading--highlights"> {{}}</h3>
+                    <h3 class="heading--highlights"> {{ block.settings.heading }}</h3>
                 {% endif %}
-
-                
                 {% if block.settings.link != blank %}
                     </a>
                 {% endif %}
