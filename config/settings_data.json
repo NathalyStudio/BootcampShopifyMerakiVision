@@ -690,6 +690,53 @@
           "view_all": false,
           "divider": false
         }
+      },
+      "16597157893e36319e": {
+        "type": "highlights",
+        "blocks": {
+          "ad49a04c-4dd5-4b7e-a920-1f2b90ef24b2": {
+            "type": "slide",
+            "settings": {
+              "link": "",
+              "image": "shopify:\/\/shop_images\/Frame_365.png",
+              "text": "20+ years of  consultant experience"
+            }
+          },
+          "cb9e96ce-7f7f-4f3d-8f0c-407c16871aa6": {
+            "type": "slide",
+            "settings": {
+              "link": "",
+              "image": "shopify:\/\/shop_images\/Frame_364.png",
+              "text": "30+ years midwife experience"
+            }
+          },
+          "82ace8f6-a9ea-42d0-b65f-d75341269cba": {
+            "type": "slide",
+            "settings": {
+              "link": "",
+              "image": "shopify:\/\/shop_images\/Frame_356.png",
+              "text": "2 Psycological degrees"
+            }
+          },
+          "68d35f0b-7fcf-480f-b1f7-9452a50c593a": {
+            "type": "slide",
+            "settings": {
+              "link": "",
+              "image": "shopify:\/\/shop_images\/Frame_357.png",
+              "text": "50,000+ families helped"
+            }
+          }
+        },
+        "block_order": [
+          "ad49a04c-4dd5-4b7e-a920-1f2b90ef24b2",
+          "cb9e96ce-7f7f-4f3d-8f0c-407c16871aa6",
+          "82ace8f6-a9ea-42d0-b65f-d75341269cba",
+          "68d35f0b-7fcf-480f-b1f7-9452a50c593a"
+        ],
+        "settings": {
+          "title": "",
+          "divider": false
+        }
       }
     },
     "content_for_index": [
@@ -697,7 +744,8 @@
       "16596436592d19b4a5",
       "1659648438f18bc36e",
       "1659654021f84a2341",
-      "1659163211fdb4141f"
+      "1659163211fdb4141f",
+      "16597157893e36319e"
     ]
   },
   "presets": {
