@@ -5,6 +5,12 @@
 div#CollectionSection-1659654021f84a2341 .image-wrap{
     background-color:#FBEFEE;
 }
+section#shopify-section-16597157893e36319e,
+div#shopify-section-1659654021f84a2341,
+div#shopify-section-1659648438f18bc36e,
+section#shopify-section-16596436592d19b4a5 {
+    overflow: hidden;
+}
 @media (min-width:1500px){
     
 }
