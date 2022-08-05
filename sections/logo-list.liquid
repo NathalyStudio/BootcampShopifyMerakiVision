@@ -29,15 +29,21 @@ img.logo-bar__image.lazyautosizes.lazyloaded {
   .logo-list .page-width {
       max-width: 2560px;
   }
-  
+  .customLogoSpace{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+  }
+  .customHeaderSpace{
+    margin-bottom: 6rem;
+  }
 }
 {% endstyle %}
 
 {% if section.settings.divider %}<div class="section--divider">{% endif %}
-<div class="logo-list">
+<div class="logo-list customLogoSpace">
   <div class="page-width" data-aos="logo__animation">
     {% if section.settings.title != blank %}
-      <div class="section-header">
+      <div class="section-header customHeaderSpace">
         <h2 class="section-header__title">{{ section.settings.title | escape }}</h2>
       </div>
     {% endif %}
@@ -76,6 +82,7 @@ img.logo-bar__image.lazyautosizes.lazyloaded {
 {% schema %}
   {
     "name": "Logo list",
+   "tag": "section",
     "class": "index-section",
     "max_blocks": 10,
     "settings": [
