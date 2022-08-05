@@ -321,6 +321,7 @@ a.site-nav__link.site-nav__link--icon.small--hide {
     .page-width {
         padding: 0 148px 0 80px;
     }
+    
 }
 @media(min-width: 2560px){
     img.small--hide{

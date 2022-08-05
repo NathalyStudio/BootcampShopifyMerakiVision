@@ -9,17 +9,17 @@
     
 }
 @media (min-width:1600px){
-    page-width {
+ /*    .page-width {
         max-width: 1600px;
-    }
+    } */
 }
 @media (min-width:1700px){
 
 }
 @media (min-width:1800px){
-    page-width {
+   /*  .page-width {
         max-width: 1500px;
-    }
+    } */
 }
 @media (min-width:1900px){
     
@@ -44,6 +44,9 @@
     .checked{
         font-size: 25px;
         margin: auto 3px;
+    }
+    div#CollectionSection-1659654021f84a2341 .page-width{
+        padding-bottom: 50px;
     }
 }
 @media (min-width:2560px){
