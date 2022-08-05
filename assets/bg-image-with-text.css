@@ -1,8 +1,8 @@
 img.image__bg {
     position: absolute;
-    margin-left: 16%;
-    margin-top: -6rem;
-    width: 1000px;
+    margin-left: 13%;
+    margin-top: -7.5rem;
+    width: 1200px;
 }
 .divBG__text{
     z-index: 100;
@@ -30,14 +30,20 @@ section#shopify-section-1659723234a7a8590a {
     font-weight: 600;
     font-size: 24px;
     letter-spacing: 0;
-    margin-left: -12rem;
+    margin-left: -3rem !important;
     text-transform: capitalize;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
 }
 .bgimagetext__btn2{
     text-transform: capitalize;
     color: #4FD6C5;
     font-size: 24px;
-    border: 1.5px solid #4FD6C5;
+    border: 2.5px solid #4FD6C5;
     padding: 15px;
     background-color: transparent;
+    letter-spacing: 0;
+    padding-left: 50px;
+    padding-right: 50px;
 }
