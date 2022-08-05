@@ -1,0 +1,14 @@
+.highlights--16597157893e36319e {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img__Highlight{
+    width: 250px;
+    height: auto;
+}
