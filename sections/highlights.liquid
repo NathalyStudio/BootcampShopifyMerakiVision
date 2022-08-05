@@ -29,7 +29,7 @@
                 {% endif %}
                 <!-- We then ask for the text that is going to be below the image -->
                 {% if block.settings.text != blank %}
-                    <p class="heading--highlights"> {{ block.settings.heading }}<p>
+                    <p class="heading--highlights"> {{ block.settings.text }}<p>
                 {% endif %}
                 {% if block.settings.link != blank %}
                     </a>
@@ -79,7 +79,7 @@
         },
         {
           "type": "richtext",
-          "id": "heading",
+          "id": "text",
           "label": "Highlighted text",
           "default": "Highlighted text"
         }
