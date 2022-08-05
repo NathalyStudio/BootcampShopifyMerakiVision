@@ -10,6 +10,7 @@ img.image__bg {
 section#shopify-section-1659723234a7a8590a {
     margin-top: 20rem;
     margin-bottom: 20rem;
+    overflow-y: hidden;
 }
 .bgimagetext__title{
     font-family: var(--typeHeaderPrimary),var(--typeHeaderFallback);
