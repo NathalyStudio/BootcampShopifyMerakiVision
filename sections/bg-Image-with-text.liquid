@@ -1,10 +1,10 @@
-<style>
-    .bg-image-with-text{
-        background-image: url({{'section.settings.bgImage' | asset_url }});
-    }
-</style>
 {% if section.settings.divider %}<div class="section--divider">{% endif %}
 
+    {%- assign img_url = section.settings.bgImage | bg_img_url: '1x1' | replace: '_1x1.' -%}
+    <img class="lazyload image__bg"
+         data-src="{{bg_img_url}}"
+         data-sizes="auto">
+         
     <div class="divBGImage-withtext">
     <div class="page-width">
         {% capture image_layout %}
