@@ -12,7 +12,7 @@
                 {% if section.settings.button_label != blank and section.settings.button_link != blank %}<a href="{{ section.settings.button_link }}">{% endif %}
                 <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: section.settings.image.aspect_ratio }}%;">
                 
-                  <img class="feature-row__image imageSectionCustom"
+                  <img class="imageSectionCustom"
                       src="{{section.settings.image | img_url: 'master'  }}"
                       alt="{{ section.settings.image.alt }}">
                 </div>
