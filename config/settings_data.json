@@ -737,6 +737,20 @@
           "title": "",
           "divider": false
         }
+      },
+      "1659723234a7a8590a": {
+        "type": "bg-Image-with-text",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/IMG_9841_2.png",
+          "image_width": 330,
+          "subtitle": "",
+          "title": "Meet Karen Faulkner",
+          "text": "<p>Lorem Ipsum is simply dummy text of the printing and. Lorem Ipsum is simply dummy text of the printing and. Lorem Ipsum is simply dummy text of the printing and. Lorem Ipsum is simply dummy text of the printing and.<\/p>",
+          "button_label": "Schedule Consultation",
+          "button_link": "",
+          "layout": "right",
+          "divider": false
+        }
       }
     },
     "content_for_index": [
@@ -745,7 +759,8 @@
       "1659648438f18bc36e",
       "1659654021f84a2341",
       "16597157893e36319e",
-      "1659163211fdb4141f"
+      "1659163211fdb4141f",
+      "1659723234a7a8590a"
     ]
   },
   "presets": {
