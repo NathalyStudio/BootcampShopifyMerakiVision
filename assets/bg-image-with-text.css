@@ -1,7 +1,7 @@
 img.image__bg {
     position: absolute;
     margin-left: 13%;
-    margin-top: -7.5rem;
+    margin-top: -1.5rem;
     width: 1200px;
 }
 .divBG__text{
@@ -50,9 +50,12 @@ section#shopify-section-1659723234a7a8590a {
 .image_bg2{
     position: absolute;
     right: 29rem;
-    margin-top: -8rem;
+    margin-top: 1rem;
     width: 600px;
 }
 .imageSectionCustom{
     position: absolute;
+    width: 600px;
+    margin-top: -4rem;
+    margin-left: -6rem;
 }
