@@ -1,0 +1,89 @@
+<section class="highlights">
+    {% if section.settings.title != blank %}
+      <div class="section-header">
+        <h2 class="section-header__title">{{ section.settings.title | escape }}</h2>
+      </div>
+    {% endif %}
+    <!-- This is for block image section -->
+    <div class="flex--highlights">
+        {% if section.blocks.size > 0 %}
+        <div class="highlights--{{ section.id }}">
+          {% for block in section.blocks %}
+          <!-- The first we ask for are the links if the user want to add a linked block to another page -->
+            <div class="logo-bar__item" {{ block.shopify_attributes }}>
+                {% if block.settings.link != blank %}
+                    <a href="{{ block.settings.link }}" class="logo-bar__link">
+                {% endif %}
+                <!-- The next thing we ask for is the image of the highlight -->
+                {% if block.settings.image != blank %}
+                    {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                    <img class="logo-bar__image lazyload"
+                        data-src="{{ img_url }}"
+                        data-widths="[180, 360, 540, 720]"
+                        data-aspectratio="{{ block.settings.image.aspect_ratio }}"
+                        data-sizes="auto"
+                        alt="{{ block.settings.image.alt }}">
+                {% else %}
+                    {{ 'logo' | placeholder_svg_tag: 'placeholder-svg' }}
+                {% endif %}
+                <!-- We then ask for the text that is going to be below the image -->
+                {% if block.settings.text != blank %}
+                    <h3 class="heading--highlights"> {{ block.settings.heading }}</h3>
+                {% endif %}
+                {% if block.settings.link != blank %}
+                    </a>
+                {% endif %}
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+</section>
+
+{% schema %}
+{
+  "name": "Highlights",
+  "class": "slideshow",
+  "max_blocks": 10,
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "placeholder": "Title",
+      "label": "Heading",
+      "default": "Heading",
+      "info": "Heading of the section"
+    },
+    {
+      "type": "checkbox",
+      "id": "divider",
+      "label": "Show section divider",
+      "default": false
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Slide",
+      "type": "slide",
+      "settings": [
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link of the highlight"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Highlighted text",
+          "default": "Highlighted text"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
