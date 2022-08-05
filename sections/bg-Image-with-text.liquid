@@ -13,7 +13,7 @@
                 <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: section.settings.image.aspect_ratio }}%;">
                   {%- assign img_url = section.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
                   <img class="feature-row__image imageSectionCustom"
-                      src="{{section.settings.image | img_url: 'master'  }}"
+                      src="{{ img_url | img_url: 'master'  }}"
                       data-aspectratio="{{ section.settings.image.aspect_ratio }}"
                       alt="{{ section.settings.image.alt }}">
                 </div>
