@@ -12,3 +12,17 @@
     width: 360 !important;
     height: auto;
 }
+.highligh__item {
+    flex: 3;
+    margin: auto 90px;
+}
+
+h3.heading--highlights {
+    text-align: center;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 140%;
+    color: #361E45;
+}
