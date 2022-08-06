@@ -580,7 +580,7 @@
         "settings": {
           "title": "Blog posts",
           "blog": "news",
-          "post_limit": 4,
+          "post_limit": 3,
           "blog_show_tags": false,
           "blog_show_date": false,
           "blog_show_comments": false,
@@ -755,6 +755,15 @@
           "layout": "right",
           "divider": false
         }
+      },
+      "1659797678327e08a3": {
+        "type": "newsletter",
+        "settings": {
+          "title": "let’s keep in touch",
+          "text": "<p>Sign Up For Our Newsletter & Get 10% Off Your First Order<\/p>",
+          "color_background": "#fbefee",
+          "color_text": "#552473"
+        }
       }
     },
     "content_for_index": [
@@ -764,7 +773,8 @@
       "1659654021f84a2341",
       "16597157893e36319e",
       "1659723234a7a8590a",
-      "1659163211fdb4141f"
+      "1659163211fdb4141f",
+      "1659797678327e08a3"
     ]
   },
   "presets": {
