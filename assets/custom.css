@@ -87,5 +87,7 @@ section#shopify-section-16596436592d19b4a5 {
         margin-left: 2rem;
         width: 300px;
     }
-
+    .customPost img{
+        opacity: .43;
+    }
 }
