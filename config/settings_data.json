@@ -759,10 +759,10 @@
       "1659797678327e08a3": {
         "type": "newsletter",
         "settings": {
-          "title": "Sign up and save",
-          "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
-          "color_background": "#f9f9f9",
-          "color_text": "#1c1d1d"
+          "title": "let’s keep in touch",
+          "text": "<p>Sign Up For Our Newsletter & Get 10% Off Your First Order<\/p>",
+          "color_background": "#fbefee",
+          "color_text": "#552473"
         }
       }
     },
