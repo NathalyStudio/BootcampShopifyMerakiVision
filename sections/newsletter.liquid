@@ -7,15 +7,29 @@
   .newsletter-{{ section.id }} .newsletter__input::-webkit-input-placeholder { color: {{ section.settings.color_text }}; }
   .newsletter-{{ section.id }} .newsletter__input::-moz-placeholder { color: {{ section.settings.color_text }}; }
   .newsletter-{{ section.id }} .newsletter__input::-ms-input-placeholder { color: {{ section.settings.color_text }}; }
+  .newsletter-title{
+    text-transform: capitalize;
+  }
+  .newsletter-description{
+    text-transform: capitalize;
+  }
+  @media (min-width: 2560px){
+    .newsletter-section{
+      width: 600px;
+    }
+    .newsletter-description{
+      font-size: 60px;
+    }
+  }
 {% endstyle %}
 
 <div class="newsletter-section newsletter-{{ section.id }}{% if section.settings.color_background == settings.color_body_bg %} newsletter-section--with-divider{% endif %}">
   <div class="page-width text-center">
     {% if section.settings.title != blank %}
-      <p class="h3">{{ section.settings.title | escape }}</p>
+      <p class="newsletter-title">{{ section.settings.title | escape }}</p>
     {% endif %}
     {% if section.settings.text != blank %}
-      <div class="rte">{{ section.settings.text }}</div>
+      <div class="rte newsletter-description">{{ section.settings.text }}</div>
     {% endif %}
 
     {% render 'newsletter-form', section_id: section.id, snippet_context: 'section' %}
@@ -25,6 +39,7 @@
 {% schema %}
   {
     "name": "Newsletter",
+   "tag": "section",
     "settings": [
       {
         "type": "paragraph",
