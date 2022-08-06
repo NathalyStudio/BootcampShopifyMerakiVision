@@ -580,7 +580,7 @@
         "settings": {
           "title": "Blog posts",
           "blog": "news",
-          "post_limit": 4,
+          "post_limit": 3,
           "blog_show_tags": false,
           "blog_show_date": false,
           "blog_show_comments": false,
