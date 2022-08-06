@@ -1,3 +1,5 @@
+{{'custom.css' | asset_url | stylesheet_tag }}
+
 {%- assign blog = blogs[section.settings.blog] -%}
 
 {% if section.settings.divider %}<div class="section--divider">{% endif %}
@@ -87,8 +89,8 @@
         "label": "Posts",
         "default": 3,
         "min": 3,
-        "max": 12,
-        "step": 3
+        "max": 15,
+        "step": 1
       },
       {
         "type": "checkbox",

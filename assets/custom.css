@@ -1,3 +1,4 @@
+
 .desktopWidth{
     max-width: 1148px;
     width: 100%;
@@ -79,6 +80,12 @@ section#shopify-section-16596436592d19b4a5 {
     .grid-product__price {
         font-size: 28px;
         font-weight: 700;
+    }
+    .article__grid-meta {
+        position: absolute;
+        margin-top: -20rem;
+        margin-left: 2rem;
+        width: 300px;
     }
 
 }
