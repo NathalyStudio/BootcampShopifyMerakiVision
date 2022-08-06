@@ -755,6 +755,15 @@
           "layout": "right",
           "divider": false
         }
+      },
+      "1659797678327e08a3": {
+        "type": "newsletter",
+        "settings": {
+          "title": "Sign up and save",
+          "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
+          "color_background": "#f9f9f9",
+          "color_text": "#1c1d1d"
+        }
       }
     },
     "content_for_index": [
@@ -764,7 +773,8 @@
       "1659654021f84a2341",
       "16597157893e36319e",
       "1659723234a7a8590a",
-      "1659163211fdb4141f"
+      "1659163211fdb4141f",
+      "1659797678327e08a3"
     ]
   },
   "presets": {
